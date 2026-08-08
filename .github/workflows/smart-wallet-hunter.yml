@@ -1,0 +1,43 @@
+name: Smart Wallet Hunter
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  scan-smart-wallets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Smart Wallet scanner
+        env:
+          HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
+        run: |
+          python smart-wallet-scanner.py
+
+      - name: Save Smart Wallet discoveries
+        run: |
+          git config user.name "Smart Wallet Hunter Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add smart-wallet-data.json
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "Update Smart Wallet data"
+            git push
+          fi
