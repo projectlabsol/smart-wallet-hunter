@@ -1340,9 +1340,19 @@ else if(walletType === "WHALE CANDIDATE"){
 
                     <div class="wallet-main">
 
-                        <div class="wallet-icon">
-                            🧠
-                        </div>
+                       <div class="wallet-icon">
+    ${
+        walletType === "SMART WHALE" || walletType === "WHALE"
+            ? "🐋"
+            : walletType === "SMART WHALE CANDIDATE" || walletType === "WHALE CANDIDATE"
+            ? "🐳"
+            : walletType === "ACTIVE WALLET"
+            ? "🔵"
+            : walletType === "WATCHLIST"
+            ? "👀"
+            : "🧠"
+    }
+</div>
 
                         <div>
 
