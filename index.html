@@ -911,7 +911,7 @@ footer{
     <div class="header-right">
 
         <div class="badge">
-            DEMO DATA
+            LIVE DATA
         </div>
 
         <div class="status">
@@ -989,8 +989,8 @@ footer{
             Smart Wallets
         </div>
 
-        <div class="metric-value purple">
-            24
+        <div class="metric-value purple" id="metricSmartWallets">
+            0
         </div>
 
         <div class="metric-info">
@@ -1006,8 +1006,8 @@ footer{
             Smart Money Alerts
         </div>
 
-        <div class="metric-value green">
-            7
+        <div class="metric-value green" id="metricSmartAlerts">
+          0
         </div>
 
         <div class="metric-info">
@@ -1020,15 +1020,15 @@ footer{
     <article class="metric">
 
         <div class="metric-label">
-            Avg Win Rate
+            Recent Swaps 7D
         </div>
 
-        <div class="metric-value blue">
-            74%
+        <div class="metric-value blue" id="metricRecentSwaps">
+            0
         </div>
 
         <div class="metric-info">
-            Demo tracked wallet performance
+            Real swap activity in the last 7 days
         </div>
 
     </article>
@@ -1037,15 +1037,15 @@ footer{
     <article class="metric">
 
         <div class="metric-label">
-            Suspicious Wallets
+            Tokens Scanned
         </div>
 
-        <div class="metric-value red">
-            3
+       <div class="metric-value yellow" id="metricTokensScanned">
+           0
         </div>
 
         <div class="metric-info">
-            Possible bot / dev behavior
+            Real Solana tokens analyzed
         </div>
 
     </article>
@@ -1186,7 +1186,7 @@ footer{
     </div>
 
     <div>
-        Current records are DEMO DATA — not financial advice.
+      Live Solana data from Helius + DEX Screener — not financial advice.
     </div>
 
 </footer>
@@ -1197,138 +1197,23 @@ footer{
 <script>
 
 /* =========================================================
-   DEMO SMART WALLETS
+  REAL SMART WALLETS
    ========================================================= */
 
-const smartWallets = [
-
-    {
-        address:"7KbP...x91Q",
-        icon:"🧠",
-        tag:"Early Entry Specialist",
-        winRate:84,
-        trades:38,
-        earlyEntries:17,
-        bestROI:1240,
-        score:96
-    },
-
-    {
-        address:"3JfR...p82M",
-        icon:"💎",
-        tag:"Consistent Trader",
-        winRate:79,
-        trades:31,
-        earlyEntries:14,
-        bestROI:830,
-        score:91
-    },
-
-    {
-        address:"9MeQ...z11A",
-        icon:"⚡",
-        tag:"Fast Entry Wallet",
-        winRate:75,
-        trades:44,
-        earlyEntries:19,
-        bestROI:690,
-        score:87
-    },
-
-    {
-        address:"6WaD...k90L",
-        icon:"🎯",
-        tag:"High Accuracy",
-        winRate:72,
-        trades:29,
-        earlyEntries:11,
-        bestROI:540,
-        score:82
-    },
-
-    {
-        address:"B83x...FQ7s",
-        icon:"🔭",
-        tag:"Emerging Smart Wallet",
-        winRate:68,
-        trades:21,
-        earlyEntries:9,
-        bestROI:410,
-        score:77
-    }
-
-];
+let smartWallets = [];
 
 
 /* =========================================================
-   DEMO SMART MONEY ALERTS
+   REAL SMART MONEY ALERTS
    ========================================================= */
 
-const smartAlerts = [
-
-    {
-        token:"$NEURAL",
-        wallets:5,
-        window:"4m",
-        sol:"82.4",
-        confidence:94
-    },
-
-    {
-        token:"$BYTE",
-        wallets:4,
-        window:"7m",
-        sol:"61.8",
-        confidence:87
-    },
-
-    {
-        token:"$SIGNAL",
-        wallets:3,
-        window:"9m",
-        sol:"39.5",
-        confidence:81
-    }
-
-];
-
+let smartAlerts = [];
 
 /* =========================================================
-   DEMO RECENT BUYS
+   REAL RECENT BUYS
    ========================================================= */
 
-const recentBuys = [
-
-    {
-        wallet:"7KbP...x91Q",
-        token:"$NEURAL",
-        amount:"18.4 SOL",
-        age:"42 sec"
-    },
-
-    {
-        wallet:"3JfR...p82M",
-        token:"$NEURAL",
-        amount:"12.8 SOL",
-        age:"1 min"
-    },
-
-    {
-        wallet:"9MeQ...z11A",
-        token:"$BYTE",
-        amount:"9.7 SOL",
-        age:"3 min"
-    },
-
-    {
-        wallet:"6WaD...k90L",
-        token:"$SIGNAL",
-        amount:"7.2 SOL",
-        age:"5 min"
-    }
-
-];
-
+let recentBuys = [];
 
 /* =========================================================
    RENDER SMART WALLETS
@@ -1349,7 +1234,6 @@ function renderWallets(items){
     counter.textContent =
         items.length;
 
-
     if(!items.length){
 
         root.innerHTML = `
@@ -1359,108 +1243,135 @@ function renderWallets(items){
                 color:#767287;
                 font-size:11px;
             ">
-                No matching smart wallet found.
+                No smart wallets detected yet.
             </div>
         `;
 
         return;
     }
 
-
     root.innerHTML =
-        items.map(wallet => `
+        items.map(wallet => {
 
-            <article class="wallet-row">
+            const address =
+                wallet.shortAddress
+                || wallet.address
+                || "Unknown";
 
-                <div class="wallet-main">
+            const fullAddress =
+                wallet.address
+                || "";
 
-                    <div class="wallet-icon">
-                        ${wallet.icon}
+            const tag =
+                wallet.tag
+                || "Wallet Under Review";
+
+            const totalSwaps =
+                Number(
+                    wallet.swapCount || 0
+                );
+
+            const swaps7d =
+                Number(
+                    wallet.recentSwaps7d || 0
+                );
+
+            const tokens =
+                Number(
+                    wallet.distinctTokens || 0
+                );
+
+            const signals =
+                Number(
+                    wallet.discoverySignals || 0
+                );
+
+            const score =
+                Number(
+                    wallet.smartScore || 0
+                );
+
+            return `
+
+                <article class="wallet-row">
+
+                    <div class="wallet-main">
+
+                        <div class="wallet-icon">
+                            🧠
+                        </div>
+
+                        <div>
+
+                            <div
+                                class="wallet-address"
+                                title="${fullAddress}"
+                            >
+                                ${address}
+                            </div>
+
+                            <div class="wallet-tag">
+                                ${tag}
+                            </div>
+
+                        </div>
+
                     </div>
 
                     <div>
+                        <span class="label">
+                            Total Swaps
+                        </span>
 
-                        <div class="wallet-address">
-                            ${wallet.address}
+                        <div class="value">
+                            ${totalSwaps}
                         </div>
+                    </div>
 
-                        <div class="wallet-tag">
-                            ${wallet.tag}
+                    <div>
+                        <span class="label">
+                            Swaps 7D
+                        </span>
+
+                        <div class="value green">
+                            ${swaps7d}
                         </div>
-
                     </div>
 
-                </div>
+                    <div>
+                        <span class="label">
+                            Tokens
+                        </span>
 
-
-                <div>
-
-                    <span class="label">
-                        Win Rate
-                    </span>
-
-                    <div class="value green">
-                        ${wallet.winRate}%
+                        <div class="value blue">
+                            ${tokens}
+                        </div>
                     </div>
 
-                </div>
+                    <div>
+                        <span class="label">
+                            Signals
+                        </span>
 
-
-                <div>
-
-                    <span class="label">
-                        Trades
-                    </span>
-
-                    <div class="value">
-                        ${wallet.trades}
+                        <div class="value yellow">
+                            ${signals}
+                        </div>
                     </div>
 
-                </div>
+                    <div>
+                        <span class="label">
+                            Smart Score
+                        </span>
 
-
-                <div>
-
-                    <span class="label">
-                        Early Entries
-                    </span>
-
-                    <div class="value blue">
-                        ${wallet.earlyEntries}
+                        <div class="score">
+                            ${score}/100
+                        </div>
                     </div>
 
-                </div>
+                </article>
+            `;
 
-
-                <div>
-
-                    <span class="label">
-                        Best ROI
-                    </span>
-
-                    <div class="value yellow">
-                        +${wallet.bestROI}%
-                    </div>
-
-                </div>
-
-
-                <div>
-
-                    <span class="label">
-                        Smart Score
-                    </span>
-
-                    <div class="score">
-                        ${wallet.score}/100
-                    </div>
-
-                </div>
-
-            </article>
-
-        `).join("");
-
+        }).join("");
 }
 
 
@@ -1475,77 +1386,127 @@ function renderAlerts(){
             "alertList"
         );
 
+    if(!smartAlerts.length){
+
+        root.innerHTML = `
+            <div style="
+                padding:28px;
+                text-align:center;
+                color:#767287;
+                font-size:10px;
+            ">
+                No smart-money alerts detected yet.
+            </div>
+        `;
+
+        return;
+    }
 
     root.innerHTML =
-        smartAlerts.map(alert => `
+        smartAlerts.map(alert => {
 
-            <article class="alert-card">
+            const token =
+                alert.symbol
+                || "TOKEN";
 
-                <div class="alert-top">
+            const wallets =
+                Number(
+                    alert.walletCount || 0
+                );
 
-                    <div class="alert-token">
-                        ${alert.token}
-                    </div>
+            const windowMinutes =
+                Number(
+                    alert.windowMinutes || 0
+                );
 
-                    <div class="alert-badge">
-                        SCORE ${alert.confidence}
-                    </div>
+            const confidence =
+                Number(
+                    alert.confidence || 0
+                );
 
-                </div>
+            const mint =
+                alert.mint || "";
 
-                <div class="alert-description">
+            return `
 
-                    Multiple tracked smart wallets entered
-                    this token within a short period.
+                <article class="alert-card">
 
-                </div>
+                    <div class="alert-top">
 
+                        <div class="alert-token">
+                            $${token}
+                        </div>
 
-                <div class="alert-grid">
-
-                    <div class="mini">
-
-                        <span>
-                            WALLETS
-                        </span>
-
-                        <strong>
-                            ${alert.wallets}
-                        </strong>
-
-                    </div>
-
-
-                    <div class="mini">
-
-                        <span>
-                            TOTAL BUY
-                        </span>
-
-                        <strong class="green">
-                            ${alert.sol} SOL
-                        </strong>
+                        <div class="alert-badge">
+                            SCORE ${confidence}
+                        </div>
 
                     </div>
 
+                    <div class="alert-description">
+                        ${wallets} tracked wallets entered
+                        this token within ${windowMinutes} minutes.
+                    </div>
 
-                    <div class="mini">
+                    <div
+                        style="
+                            margin-top:7px;
+                            color:#69667b;
+                            font-size:8px;
+                            overflow:hidden;
+                            text-overflow:ellipsis;
+                            white-space:nowrap;
+                        "
+                        title="${mint}"
+                    >
+                        ${mint}
+                    </div>
 
-                        <span>
-                            WINDOW
-                        </span>
+                    <div class="alert-grid">
 
-                        <strong>
-                            ${alert.window}
-                        </strong>
+                        <div class="mini">
+
+                            <span>
+                                WALLETS
+                            </span>
+
+                            <strong>
+                                ${wallets}
+                            </strong>
+
+                        </div>
+
+                        <div class="mini">
+
+                            <span>
+                                WINDOW
+                            </span>
+
+                            <strong class="green">
+                                ${windowMinutes}m
+                            </strong>
+
+                        </div>
+
+                        <div class="mini">
+
+                            <span>
+                                CONFIDENCE
+                            </span>
+
+                            <strong>
+                                ${confidence}/100
+                            </strong>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </article>
 
-            </article>
+            `;
 
-        `).join("");
+        }).join("");
 
 }
 
@@ -1561,40 +1522,95 @@ function renderRecentBuys(){
             "recentBuyList"
         );
 
+    if(!recentBuys.length){
+
+        root.innerHTML = `
+            <div style="
+                padding:28px;
+                text-align:center;
+                color:#767287;
+                font-size:10px;
+            ">
+                No recent smart-wallet activity detected yet.
+            </div>
+        `;
+
+        return;
+    }
+
 
     root.innerHTML =
-        recentBuys.map(item => `
+        recentBuys.map(item => {
 
-            <article class="buy-row">
+            const wallet =
+                item.shortWallet
+                || item.wallet
+                || "Unknown";
 
-                <div>
+            const token =
+                item.symbol
+                || "TOKEN";
 
-                    <div class="buy-wallet">
-                        🧠 ${item.wallet}
+            const amount =
+                Number(
+                    item.amount || 0
+                );
+
+            const age =
+                formatAge(
+                    item.ageSeconds
+                );
+
+            const score =
+                Number(
+                    item.smartScore || 0
+                );
+
+            const mint =
+                item.mint || "";
+
+            return `
+
+                <article
+                    class="buy-row"
+                    title="${mint}"
+                >
+
+                    <div>
+
+                        <div class="buy-wallet">
+                            🧠 ${wallet}
+                        </div>
+
+                        <div class="buy-sub">
+                            ${age} · Score ${score}/100
+                        </div>
+
                     </div>
 
-                    <div class="buy-sub">
-                        ${item.age}
+
+                    <div class="buy-token">
+
+                        <strong>
+                            $${token}
+                        </strong>
+
+                        <span>
+                            ${amount.toLocaleString(
+                                "en-US",
+                                {
+                                    maximumFractionDigits: 4
+                                }
+                            )} tokens
+                        </span>
+
                     </div>
 
-                </div>
+                </article>
 
+            `;
 
-                <div class="buy-token">
-
-                    <strong>
-                        ${item.token}
-                    </strong>
-
-                    <span>
-                        ${item.amount}
-                    </span>
-
-                </div>
-
-            </article>
-
-        `).join("");
+        }).join("");
 
 }
 
@@ -1660,12 +1676,12 @@ function analyzeWallet(){
     if(filtered.length){
 
         message.textContent =
-            `${filtered.length} matching wallet record(s) found in demo data.`;
+            `${filtered.length} matching real wallet record(s) found.`;
 
     }else{
 
         message.textContent =
-            "Wallet not found in demo records. Real Solana wallet analysis will be connected later.";
+            "Wallet not found in the current Smart Wallet Hunter dataset.";
 
     }
 
@@ -1702,14 +1718,134 @@ document
    START
    ========================================================= */
 
-renderWallets(
-    smartWallets
-);
+/* =========================================================
+   REAL DATA LOADER
+   ========================================================= */
 
-renderAlerts();
+function formatAge(seconds) {
 
-renderRecentBuys();
+    const value = Number(seconds || 0);
 
+    if (value < 60) {
+        return `${value}s`;
+    }
+
+    if (value < 3600) {
+        return `${Math.floor(value / 60)} min`;
+    }
+
+    return `${Math.floor(value / 3600)} h`;
+}
+
+
+async function loadRealSmartWalletData() {
+
+    const message =
+        document.getElementById(
+            "searchMessage"
+        );
+
+    try {
+
+        message.textContent =
+            "Loading real Solana wallet intelligence...";
+
+        const response = await fetch(
+            "./smart-wallet-data.json?t=" + Date.now(),
+            {
+                cache: "no-store"
+            }
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                "Could not load smart-wallet-data.json"
+            );
+        }
+
+        const data =
+            await response.json();
+
+
+        smartWallets =
+            Array.isArray(data.wallets)
+                ? data.wallets
+                : [];
+
+
+        smartAlerts =
+            Array.isArray(data.alerts)
+                ? data.alerts
+                : [];
+
+
+        recentBuys =
+            Array.isArray(data.recentBuys)
+                ? data.recentBuys
+                : [];
+
+        const totalRecentSwaps =
+            smartWallets.reduce(
+                (total, wallet) =>
+                    total + Number(
+                        wallet.recentSwaps7d || 0
+                    ),
+                0
+            );
+
+        document.getElementById(
+            "metricSmartWallets"
+        ).textContent =
+            smartWallets.length;
+
+        document.getElementById(
+            "metricSmartAlerts"
+        ).textContent =
+            smartAlerts.length;
+
+        document.getElementById(
+            "metricRecentSwaps"
+        ).textContent =
+            totalRecentSwaps;
+
+        document.getElementById(
+            "metricTokensScanned"
+        ).textContent =
+            Number(
+                data.stats?.tokensScanned || 0
+            );
+        renderWallets(
+            smartWallets
+        );
+
+        renderAlerts();
+
+        renderRecentBuys();
+
+
+        message.textContent =
+            `REAL SOLANA DATA · ${smartWallets.length} wallets analyzed · ${smartAlerts.length} smart-money alerts · ${recentBuys.length} recent buys`;
+
+    } catch (error) {
+
+        console.error(
+            "Smart Wallet data error:",
+            error
+        );
+
+        message.textContent =
+            "Unable to load real Solana data.";
+
+        renderWallets([]);
+    }
+}
+
+
+/* =========================================================
+   START
+   ========================================================= */
+
+loadRealSmartWalletData();
 </script>
 
 </body>
