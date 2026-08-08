@@ -880,17 +880,31 @@ def analyze_wallet(
         max_swap_sol >= 20
         or recent_swap_sol_7d >= 100
     )
-
+    is_whale_candidate = (
+        not is_whale
+        and (
+            max_swap_sol >= 5
+            or recent_swap_sol_7d >= 20
+        )
+    )
     if is_whale and score >= 85:
 
         wallet_type = "SMART WHALE"
         tag = "Large Smart Money Activity"
-
+ 
     elif is_whale:
 
         wallet_type = "WHALE"
         tag = "Large Wallet Activity"
+    elif is_whale_candidate and score >= 85:
 
+        wallet_type = "SMART WHALE CANDIDATE"
+        tag = "Emerging Large Smart Money Activity"
+
+    elif is_whale_candidate:
+
+        wallet_type = "WHALE CANDIDATE"
+        tag = "Emerging Large Wallet Activity"
     elif score >= 85:
 
         wallet_type = "SMART WALLET"
@@ -925,7 +939,8 @@ def analyze_wallet(
 
         "isWhale":
             is_whale,
-
+"isWhaleCandidate":
+    is_whale_candidate,
         "smartScore":
             score,
 
