@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T05:13:03.292043+00:00",
+  "updatedAt": "2026-08-08T05:55:58.250161+00:00",
   "version": 1,
   "mode": "REAL",
   "network": "Solana",
@@ -16,14 +16,92 @@
   },
   "tokens": [
     {
+      "mint": "hLArXvDs9xdDsr5hms1gEiVqdnVGeAot7AbuRpmpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "RUBY⁠",
+      "name": "Ruby",
+      "priceUsd": 1.389e-05,
+      "liquidityUsd": 0,
+      "marketCap": 13891.28,
+      "pairCreatedAt": 1785525793000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/ggd81pkjqzljbmhhjdscxhpclzqpujvsrye4xw1aoqgh"
+    },
+    {
+      "mint": "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz",
+      "source": "DEX Latest Profiles",
+      "description": "First Catcoin on the blockchain",
+      "symbol": "CATCOIN",
+      "name": "First Catcoin on the blockchain ",
+      "priceUsd": 7.723e-06,
+      "liquidityUsd": 0,
+      "marketCap": 7723.28,
+      "pairCreatedAt": null,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/5wwpwqhb8rizralwsadpnciygqjheuymst9qplhaba8j"
+    },
+    {
+      "mint": "9J2H9fBHoJSWtoHVeUde97Xz3662gyBLz6Yapcmvpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "asparagus",
+      "name": "asparagussy coin",
+      "priceUsd": 2.147e-05,
+      "liquidityUsd": 9598.44,
+      "marketCap": 20851.0,
+      "pairCreatedAt": 1785781898000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/bxqfv6zjhyk2yjanrvjmnmlwxri2rw47561nnzxq4uru"
+    },
+    {
+      "mint": "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "wCAT",
+      "name": "Wrapped Cat",
+      "priceUsd": 3.824e-06,
+      "liquidityUsd": 3271.52,
+      "marketCap": 3719.0,
+      "pairCreatedAt": 1786164032000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/ccsozuipwhbqbquh42yln8zglzgcmdym3r72nwy72ciw"
+    },
+    {
+      "mint": "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf",
+      "source": "DEX Latest Profiles",
+      "description": "Memecat is not a new meme. Memecat is not a 4chan meme. Memecat predates 4chan entirely.  \n\nThe earliest known use of Memecat was on — the original anonymous Japanese textboard, the one that inspired 4chan — in the Kitchen Board on JULY 7th, 2000. Tw",
+      "symbol": "Memecat",
+      "name": "Memecat",
+      "priceUsd": 2e-05,
+      "liquidityUsd": 8945.91,
+      "marketCap": 20004.0,
+      "pairCreatedAt": 1786168299000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/6drbldu5klhjw7xvmtpt4eeqwrv8ldhugz17erzrwi1r"
+    },
+    {
+      "mint": "JBKWfCwhW91RvkZb1S9HL8x59YuBbnVFxgwpkx8cpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "RUBY",
+      "name": "The Reddit Dog",
+      "priceUsd": 0.0003953,
+      "liquidityUsd": 48312.18,
+      "marketCap": 395363.0,
+      "pairCreatedAt": 1786164755000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/d3cavwpt4vutxzntypqaxpbxsmpa2fjoudpkxctwpdw2"
+    },
+    {
       "mint": "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump",
       "source": "DEX Latest Profiles",
       "description": "",
       "symbol": "ca",
       "name": "ca",
-      "priceUsd": 6.949e-06,
+      "priceUsd": 2.205e-06,
       "liquidityUsd": 0,
-      "marketCap": 6949.34,
+      "marketCap": 2205.13,
       "pairCreatedAt": 1786165169000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/64czy9e7v4arxhqcpux1wp5wjxyl1zkbt4cjfdvgvx54"
@@ -34,191 +112,153 @@
       "description": "A new trend where everyone shows up as a evil twins",
       "symbol": "EVIL",
       "name": "Evil Twin",
-      "priceUsd": 2.517e-05,
-      "liquidityUsd": 10185.86,
-      "marketCap": 25178.0,
+      "priceUsd": 1.322e-05,
+      "liquidityUsd": 7041.28,
+      "marketCap": 13226.0,
       "pairCreatedAt": 1786165848000,
       "dex": "pumpswap",
       "dexUrl": "https://dexscreener.com/solana/pqrrvqrhzccdknwyqe3ggcssbumf5sucgnm2mdtbzfd"
-    },
-    {
-      "mint": "8LiHWfp53vNS4FXeDQXgGoH7uzWiz9tPd8hSaDLhpump",
-      "source": "DEX Latest Profiles",
-      "description": "Cat Executive Officer, I will be the CEO paying out all workers who shill and bagwork.\n\nAs the CEO i will do buybacks and inject liquidity into the project.\n\nYou shall follow my commands as the CEO.",
-      "symbol": "CEO",
-      "name": "Cat Executive Officer",
-      "priceUsd": 3.573e-06,
-      "liquidityUsd": 0,
-      "marketCap": 3573.33,
-      "pairCreatedAt": 1786165286000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/aywwwuevdyhvzjbskeqwlyjnkpzvcvus1vriexppjsru"
-    },
-    {
-      "mint": "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "Bingus",
-      "name": "Bingus",
-      "priceUsd": 6.552e-05,
-      "liquidityUsd": 17342.06,
-      "marketCap": 65521.0,
-      "pairCreatedAt": 1786165074000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/aq26bah1pokuuj8bkavur2gntck6hbuzhn2czjzkkxst"
-    },
-    {
-      "mint": "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "FROG",
-      "name": "Frog Butt",
-      "priceUsd": 3.067e-05,
-      "liquidityUsd": 0,
-      "marketCap": 30672.2,
-      "pairCreatedAt": 1786163508000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/hqybwfzl6ue4yivird8ucuc8hpqecpeev78ab3stb5nu"
-    },
-    {
-      "mint": "ABAA3Xisck8rDrno87UZ7PGpGf6af4dwAEZjLNZ3pump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "YAJUKAWA",
-      "name": "ヤジュかわ",
-      "priceUsd": 2.613e-05,
-      "liquidityUsd": 11066.33,
-      "marketCap": 25282.0,
-      "pairCreatedAt": 1785627229000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/5jjq95miikm88susmug77urqsjjc86nduzv5qxncfh1"
-    },
-    {
-      "mint": "8ZFgswMrQkNTkbo8k1bqp7jubQ1ofiQdqKBFX3MUpump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "RAZORCOON",
-      "name": "Razorcoon",
-      "priceUsd": 4.646e-06,
-      "liquidityUsd": 0,
-      "marketCap": 4646.12,
-      "pairCreatedAt": 1786158740000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/fwn6ddw9lqda5ugpwdeebfkgn7o8ndbc6ips5ee78c4t"
-    },
-    {
-      "mint": "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "Froggy",
-      "name": "Froggy Friends",
-      "priceUsd": 2.136e-06,
-      "liquidityUsd": 0,
-      "marketCap": 2136.19,
-      "pairCreatedAt": 1786163149000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/9xox72dxt2jxtvupsybresj2fam9brrazwd1hzsjxdf3"
     }
   ],
   "wallets": [
     {
-      "address": "HXEVxpzMrzMJPB9UmZBZ4BbJcvuYpoZo8aXdVp7qSmUs",
-      "shortAddress": "HXEVx...SmUs",
+      "address": "6sAFaCPkdUgC3MG6XRF6ubmVhk6Wx6WsYJWUNj4RwqPJ",
+      "shortAddress": "6sAFa...wqPJ",
       "tag": "High Activity Candidate",
       "smartScore": 90,
-      "swapCount": 35,
-      "recentSwaps7d": 35,
+      "swapCount": 38,
+      "recentSwaps7d": 38,
       "distinctTokens": 9,
       "discoverySignals": 1,
       "discoveredOn": [
-        "ABAA3Xisck8rDrno87UZ7PGpGf6af4dwAEZjLNZ3pump"
+        "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump"
       ],
       "latestBuy": {
-        "mint": "AGdGTQa8iRnSx4fQJehWo4Xwbh1bzTazs55R6Jwupump",
-        "symbol": "AGdGT...pump",
-        "amount": 495498.724008,
-        "timestamp": 1786067904,
-        "ageSeconds": 98079
+        "mint": "3SBzx3h9xhwzkgvayj2gekwVRyHUZsTpFSMCaKiXpump",
+        "symbol": "3SBzx...pump",
+        "amount": 190221.10559,
+        "timestamp": 1786167775,
+        "ageSeconds": 783
       }
     },
     {
-      "address": "GjXobpiEexQqqLkghB29AtcwyJRokbeGDSkz8Kn7GGr1",
-      "shortAddress": "GjXob...GGr1",
+      "address": "92whuRJbReZBGgARbgFKPogR6f5NUD2uKgcHfxTVjhGX",
+      "shortAddress": "92whu...jhGX",
+      "tag": "High Activity Candidate",
+      "smartScore": 90,
+      "swapCount": 36,
+      "recentSwaps7d": 36,
+      "distinctTokens": 18,
+      "discoverySignals": 1,
+      "discoveredOn": [
+        "hLArXvDs9xdDsr5hms1gEiVqdnVGeAot7AbuRpmpump"
+      ],
+      "latestBuy": {
+        "mint": "38dWBqtca8dwmo7bciBcN6dAgM52pWwKCbjuDAa2pump",
+        "symbol": "38dWB...pump",
+        "amount": 8343400.753881,
+        "timestamp": 1786168260,
+        "ageSeconds": 298
+      }
+    },
+    {
+      "address": "8xTwvx83evikHfR6JGizCZcKRqj1WcVKFykrh985BAgU",
+      "shortAddress": "8xTwv...BAgU",
       "tag": "High Activity Candidate",
       "smartScore": 90,
       "swapCount": 34,
       "recentSwaps7d": 34,
-      "distinctTokens": 16,
+      "distinctTokens": 10,
       "discoverySignals": 1,
       "discoveredOn": [
-        "8ZFgswMrQkNTkbo8k1bqp7jubQ1ofiQdqKBFX3MUpump"
+        "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump"
       ],
       "latestBuy": {
-        "mint": "6a3JSp2WRCkPV9ew6vhH7fL8qZ5PkugCwyoQPghxpump",
-        "symbol": "6a3JS...pump",
-        "amount": 7718605.818377,
-        "timestamp": 1786163887,
-        "ageSeconds": 2096
+        "mint": "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump",
+        "symbol": "wCAT",
+        "amount": 23539338.112357,
+        "timestamp": 1786168321,
+        "ageSeconds": 237
       }
     },
     {
-      "address": "Htap8DvGCeSmrN1RMJSaMTGvx5yp3vumsyVXgM2n6HXC",
-      "shortAddress": "Htap8...6HXC",
+      "address": "3vPWsxhsvwQ1XS5f8Z1RYJMNJmVj5Q1JSHGKtLrnCxKz",
+      "shortAddress": "3vPWs...CxKz",
       "tag": "High Activity Candidate",
       "smartScore": 90,
-      "swapCount": 31,
-      "recentSwaps7d": 31,
-      "distinctTokens": 17,
+      "swapCount": 30,
+      "recentSwaps7d": 30,
+      "distinctTokens": 9,
       "discoverySignals": 1,
       "discoveredOn": [
-        "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump"
+        "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz"
       ],
       "latestBuy": {
-        "mint": "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump",
-        "symbol": "Froggy",
-        "amount": 1103113.748924,
-        "timestamp": 1786164003,
-        "ageSeconds": 1980
+        "mint": "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz",
+        "symbol": "CATCOIN",
+        "amount": 41232407.81753,
+        "timestamp": 1786161407,
+        "ageSeconds": 7151
       }
     },
     {
-      "address": "97K6nsFhBWDKwQf6heDDhDtsCRC4779LPHSFZkc2zqK4",
-      "shortAddress": "97K6n...zqK4",
+      "address": "5hAgYC8TJCcEZV7LTXAzkTrm7YL29YXyQQJPCNrG84zM",
+      "shortAddress": "5hAgY...84zM",
       "tag": "High Activity Candidate",
       "smartScore": 90,
-      "swapCount": 16,
-      "recentSwaps7d": 16,
-      "distinctTokens": 11,
+      "swapCount": 24,
+      "recentSwaps7d": 24,
+      "distinctTokens": 25,
       "discoverySignals": 1,
       "discoveredOn": [
-        "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump"
+        "9J2H9fBHoJSWtoHVeUde97Xz3662gyBLz6Yapcmvpump"
       ],
       "latestBuy": {
-        "mint": "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump",
-        "symbol": "Bingus",
-        "amount": 44692634.54242,
-        "timestamp": 1786164888,
-        "ageSeconds": 1095
+        "mint": "CgnudNWM6Se7mfkGHFGZ4A1YPqjpYmd8bW3nsAEKpump",
+        "symbol": "Cgnud...pump",
+        "amount": 23834461.808789,
+        "timestamp": 1786151810,
+        "ageSeconds": 16748
       }
     },
     {
-      "address": "6DicaX2dVgJVDXaZR5TSPL2a8Lw89BUUkNTygJSE9oav",
-      "shortAddress": "6Dica...9oav",
+      "address": "Hd4xZmr6n4QgJozhjDigEgoHH6t6LmDufEV45XFEeitL",
+      "shortAddress": "Hd4xZ...eitL",
       "tag": "High Activity Candidate",
       "smartScore": 90,
-      "swapCount": 25,
-      "recentSwaps7d": 12,
-      "distinctTokens": 12,
+      "swapCount": 34,
+      "recentSwaps7d": 22,
+      "distinctTokens": 29,
       "discoverySignals": 1,
       "discoveredOn": [
-        "ABAA3Xisck8rDrno87UZ7PGpGf6af4dwAEZjLNZ3pump"
+        "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz"
       ],
       "latestBuy": {
-        "mint": "ABAA3Xisck8rDrno87UZ7PGpGf6af4dwAEZjLNZ3pump",
-        "symbol": "YAJUKAWA",
-        "amount": 5696.053196,
-        "timestamp": 1785900757,
-        "ageSeconds": 265226
+        "mint": "HiubeETP7ivp2Ji6QL6smtujX4onsNLQgxnRBrbRehzB",
+        "symbol": "Hiube...ehzB",
+        "amount": 24374960.754523,
+        "timestamp": 1785993762,
+        "ageSeconds": 174796
+      }
+    },
+    {
+      "address": "DVSdHyyeztbdkqnVtrSg8LcdowZVVodansrxuXwfB4Re",
+      "shortAddress": "DVSdH...B4Re",
+      "tag": "High Activity Candidate",
+      "smartScore": 90,
+      "swapCount": 24,
+      "recentSwaps7d": 15,
+      "distinctTokens": 10,
+      "discoverySignals": 1,
+      "discoveredOn": [
+        "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump"
+      ],
+      "latestBuy": {
+        "mint": "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump",
+        "symbol": "wCAT",
+        "amount": 4634486.212564,
+        "timestamp": 1786168378,
+        "ageSeconds": 180
       }
     },
     {
@@ -238,17 +278,37 @@
         "symbol": "EVIL",
         "amount": 28175066.166883,
         "timestamp": 1786164970,
-        "ageSeconds": 1013
+        "ageSeconds": 3588
       }
     },
     {
-      "address": "A79x4Tx3D4rMTZWtwtBZ79FL4gBC5MtZmv3qi4XczE3A",
-      "shortAddress": "A79x4...zE3A",
-      "tag": "High Activity Candidate",
-      "smartScore": 90,
-      "swapCount": 29,
-      "recentSwaps7d": 6,
-      "distinctTokens": 11,
+      "address": "BXQFV6zJHYK2yjANRVJmNmLwxri2rW47561nnzxq4uRU",
+      "shortAddress": "BXQFV...4uRU",
+      "tag": "Early Activity Candidate",
+      "smartScore": 83,
+      "swapCount": 40,
+      "recentSwaps7d": 40,
+      "distinctTokens": 4,
+      "discoverySignals": 1,
+      "discoveredOn": [
+        "9J2H9fBHoJSWtoHVeUde97Xz3662gyBLz6Yapcmvpump"
+      ],
+      "latestBuy": {
+        "mint": "9J2H9fBHoJSWtoHVeUde97Xz3662gyBLz6Yapcmvpump",
+        "symbol": "asparagus",
+        "amount": 5325807.262826,
+        "timestamp": 1786168263,
+        "ageSeconds": 295
+      }
+    },
+    {
+      "address": "PqrrvqRhzccdkNwYqe3GGcSsBuMF5sucGNm2MdtbZFd",
+      "shortAddress": "Pqrrv...bZFd",
+      "tag": "Early Activity Candidate",
+      "smartScore": 81,
+      "swapCount": 40,
+      "recentSwaps7d": 40,
+      "distinctTokens": 3,
       "discoverySignals": 1,
       "discoveredOn": [
         "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump"
@@ -256,119 +316,39 @@
       "latestBuy": {
         "mint": "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump",
         "symbol": "EVIL",
-        "amount": 28086088.308131,
-        "timestamp": 1786164970,
-        "ageSeconds": 1013
+        "amount": 14248731.97563,
+        "timestamp": 1786168566,
+        "ageSeconds": 0
       }
     },
     {
-      "address": "3RZ1Gnxxwfy1wsKVtS2UA59C657dnaoonokAX8AM57hZ",
-      "shortAddress": "3RZ1G...57hZ",
-      "tag": "High Activity Candidate",
-      "smartScore": 87,
-      "swapCount": 9,
-      "recentSwaps7d": 9,
-      "distinctTokens": 10,
-      "discoverySignals": 1,
-      "discoveredOn": [
-        "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump"
-      ],
-      "latestBuy": {
-        "mint": "89RAitwPJBEfLK4Gcg5iv7AjFABHWNvoD5rkvRkvpump",
-        "symbol": "89RAi...pump",
-        "amount": 1428784.127103,
-        "timestamp": 1785903989,
-        "ageSeconds": 261994
-      }
-    },
-    {
-      "address": "F1K5ma7zTFwYXsHLndnEvkjcdYXRKTzyCYQcWqnsBaZQ",
-      "shortAddress": "F1K5m...BaZQ",
-      "tag": "High Activity Candidate",
-      "smartScore": 85,
-      "swapCount": 22,
-      "recentSwaps7d": 22,
-      "distinctTokens": 5,
-      "discoverySignals": 1,
-      "discoveredOn": [
-        "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump"
-      ],
-      "latestBuy": {
-        "mint": "7LNFZcNigZay5U9e2sq6n2Z4iM8BC2Dd53L14pwvpump",
-        "symbol": "7LNFZ...pump",
-        "amount": 784146.168348,
-        "timestamp": 1786165756,
-        "ageSeconds": 227
-      }
-    },
-    {
-      "address": "FFp1rG3riXmfMsPvCRqq8GJTHTXz8jiPbCQz2DDXxvXx",
-      "shortAddress": "FFp1r...xvXx",
-      "tag": "High Activity Candidate",
-      "smartScore": 85,
-      "swapCount": 13,
-      "recentSwaps7d": 13,
-      "distinctTokens": 5,
-      "discoverySignals": 1,
-      "discoveredOn": [
-        "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump"
-      ],
-      "latestBuy": {
-        "mint": "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump",
-        "symbol": "FROG",
-        "amount": 9067075.55499,
-        "timestamp": 1786165762,
-        "ageSeconds": 221
-      }
-    },
-    {
-      "address": "6ik2yHwe9Cj9s6ZTNBMC8fzwKPRtWARmC2eufiWV1JLt",
-      "shortAddress": "6ik2y...1JLt",
-      "tag": "Early Activity Candidate",
-      "smartScore": 83,
-      "swapCount": 18,
-      "recentSwaps7d": 18,
-      "distinctTokens": 4,
-      "discoverySignals": 1,
-      "discoveredOn": [
-        "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump"
-      ],
-      "latestBuy": {
-        "mint": "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump",
-        "symbol": "FROG",
-        "amount": 2068846.800657,
-        "timestamp": 1786165800,
-        "ageSeconds": 183
-      }
-    },
-    {
-      "address": "9Xox72Dxt2jXTvupSYBrEsj2Fam9BRRaZwd1hZsjxDf3",
-      "shortAddress": "9Xox7...xDf3",
+      "address": "7Gu3Cm389SDWRrBdaynbiNJ3vDZG62vj9738DYBXLqkz",
+      "shortAddress": "7Gu3C...Lqkz",
       "tag": "Early Activity Candidate",
       "smartScore": 81,
-      "swapCount": 28,
-      "recentSwaps7d": 28,
+      "swapCount": 40,
+      "recentSwaps7d": 40,
       "distinctTokens": 3,
       "discoverySignals": 1,
       "discoveredOn": [
-        "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump"
+        "JBKWfCwhW91RvkZb1S9HL8x59YuBbnVFxgwpkx8cpump"
       ],
       "latestBuy": {
-        "mint": "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump",
-        "symbol": "Froggy",
-        "amount": 530924.198678,
-        "timestamp": 1786165337,
-        "ageSeconds": 646
+        "mint": "JBKWfCwhW91RvkZb1S9HL8x59YuBbnVFxgwpkx8cpump",
+        "symbol": "RUBY",
+        "amount": 5116728.043102,
+        "timestamp": 1786166349,
+        "ageSeconds": 2209
       }
     },
     {
       "address": "64CzY9e7V4ArxHqcpUx1wP5WjxyL1Zkbt4CjFdvGvX54",
       "shortAddress": "64CzY...vX54",
       "tag": "Early Activity Candidate",
-      "smartScore": 77,
+      "smartScore": 81,
       "swapCount": 34,
       "recentSwaps7d": 34,
-      "distinctTokens": 1,
+      "distinctTokens": 3,
       "discoverySignals": 1,
       "discoveredOn": [
         "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump"
@@ -376,102 +356,122 @@
       "latestBuy": {
         "mint": "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump",
         "symbol": "ca",
-        "amount": 633484.076358,
-        "timestamp": 1786165961,
-        "ageSeconds": 22
+        "amount": 1944558.002601,
+        "timestamp": 1786168429,
+        "ageSeconds": 129
       }
     },
     {
-      "address": "AYwWwueVDyHvZJbSkEqWLYjnKpZVCVus1VRiEXpPjSRu",
-      "shortAddress": "AYwWw...jSRu",
+      "address": "HvuphGmz1zy9zdFni5Lk8iGPLEhd84v8hndD9DoWpqpq",
+      "shortAddress": "Hvuph...pqpq",
       "tag": "Early Activity Candidate",
-      "smartScore": 77,
-      "swapCount": 31,
-      "recentSwaps7d": 31,
-      "distinctTokens": 1,
+      "smartScore": 81,
+      "swapCount": 7,
+      "recentSwaps7d": 7,
+      "distinctTokens": 9,
       "discoverySignals": 1,
       "discoveredOn": [
-        "8LiHWfp53vNS4FXeDQXgGoH7uzWiz9tPd8hSaDLhpump"
+        "hLArXvDs9xdDsr5hms1gEiVqdnVGeAot7AbuRpmpump"
       ],
       "latestBuy": {
-        "mint": "8LiHWfp53vNS4FXeDQXgGoH7uzWiz9tPd8hSaDLhpump",
-        "symbol": "CEO",
-        "amount": 270321.736457,
-        "timestamp": 1786165972,
-        "ageSeconds": 11
+        "mint": "5WMztsyRSFveo3z2oDVPBNFi3GWaiWAfcVC1XDMKpump",
+        "symbol": "5WMzt...pump",
+        "amount": 6605334.658384,
+        "timestamp": 1786167410,
+        "ageSeconds": 1148
       }
     },
     {
-      "address": "Fwn6dDw9LqdA5ugPwDEEBFKgn7o8Ndbc6ipS5EE78C4t",
-      "shortAddress": "Fwn6d...8C4t",
+      "address": "5wwpwQHb8rizRaLwSAdPnCiYgQJHeuymsT9qPLhaba8J",
+      "shortAddress": "5wwpw...ba8J",
       "tag": "Early Activity Candidate",
-      "smartScore": 77,
-      "swapCount": 30,
-      "recentSwaps7d": 30,
-      "distinctTokens": 1,
+      "smartScore": 79,
+      "swapCount": 35,
+      "recentSwaps7d": 35,
+      "distinctTokens": 2,
       "discoverySignals": 1,
       "discoveredOn": [
-        "8ZFgswMrQkNTkbo8k1bqp7jubQ1ofiQdqKBFX3MUpump"
+        "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz"
       ],
       "latestBuy": {
-        "mint": "8ZFgswMrQkNTkbo8k1bqp7jubQ1ofiQdqKBFX3MUpump",
-        "symbol": "RAZORCOON",
-        "amount": 15129473.868945,
-        "timestamp": 1786165686,
-        "ageSeconds": 297
+        "mint": "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz",
+        "symbol": "CATCOIN",
+        "amount": 2876846.358997,
+        "timestamp": 1786167997,
+        "ageSeconds": 561
       }
     },
     {
-      "address": "PqrrvqRhzccdkNwYqe3GGcSsBuMF5sucGNm2MdtbZFd",
-      "shortAddress": "Pqrrv...bZFd",
+      "address": "Ggd81PkJqzLJbmHHJdScxHpCLZQPUjVsRye4XW1aoqGH",
+      "shortAddress": "Ggd81...oqGH",
       "tag": "Early Activity Candidate",
-      "smartScore": 77,
+      "smartScore": 79,
       "swapCount": 17,
       "recentSwaps7d": 17,
-      "distinctTokens": 1,
+      "distinctTokens": 2,
       "discoverySignals": 1,
       "discoveredOn": [
-        "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump"
+        "hLArXvDs9xdDsr5hms1gEiVqdnVGeAot7AbuRpmpump"
       ],
       "latestBuy": {
-        "mint": "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump",
-        "symbol": "EVIL",
-        "amount": 262405.525246,
-        "timestamp": 1786165988,
+        "mint": "hLArXvDs9xdDsr5hms1gEiVqdnVGeAot7AbuRpmpump",
+        "symbol": "RUBY⁠",
+        "amount": 160283.363549,
+        "timestamp": 1786168561,
         "ageSeconds": 0
       }
     },
     {
-      "address": "7whmkwj2KaumsrNvuhvG7iLpc3eQHYvM4HWd6CywQRtF",
-      "shortAddress": "7whmk...QRtF",
-      "tag": "Wallet Under Review",
-      "smartScore": 48,
-      "swapCount": 3,
-      "recentSwaps7d": 3,
+      "address": "6DRBLdu5KLhjw7XvmtPt4eeQWrv8LDHuGZ17erZRWi1r",
+      "shortAddress": "6DRBL...Wi1r",
+      "tag": "Early Activity Candidate",
+      "smartScore": 77,
+      "swapCount": 38,
+      "recentSwaps7d": 38,
       "distinctTokens": 1,
       "discoverySignals": 1,
       "discoveredOn": [
-        "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump"
+        "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf"
       ],
       "latestBuy": {
-        "mint": "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump",
-        "symbol": "Bingus",
-        "amount": 64166706.528994,
-        "timestamp": 1786164846,
-        "ageSeconds": 1137
+        "mint": "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf",
+        "symbol": "Memecat",
+        "amount": 1299486.976053,
+        "timestamp": 1786168564,
+        "ageSeconds": 0
       }
     },
     {
-      "address": "DbDUqH2WqKRBZ44jmaQhas6y7RR5uBkmY4YJLYeA79kj",
-      "shortAddress": "DbDUq...79kj",
-      "tag": "Wallet Under Review",
-      "smartScore": 27,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 1,
+      "address": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb",
+      "shortAddress": "EqiFg...r1Zb",
+      "tag": "Early Activity Candidate",
+      "smartScore": 75,
+      "swapCount": 5,
+      "recentSwaps7d": 5,
+      "distinctTokens": 8,
       "discoverySignals": 1,
       "discoveredOn": [
-        "8LiHWfp53vNS4FXeDQXgGoH7uzWiz9tPd8hSaDLhpump"
+        "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf"
+      ],
+      "latestBuy": {
+        "mint": "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf",
+        "symbol": "Memecat",
+        "amount": 2479063.825541,
+        "timestamp": 1786168455,
+        "ageSeconds": 103
+      }
+    },
+    {
+      "address": "FArymWsgXZdQiopb9CjkeKtpuLhmEk1Y5qTMoZjZtbU1",
+      "shortAddress": "FArym...tbU1",
+      "tag": "Wallet Under Review",
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "discoveredOn": [
+        "JBKWfCwhW91RvkZb1S9HL8x59YuBbnVFxgwpkx8cpump"
       ],
       "latestBuy": null
     }
@@ -480,82 +480,132 @@
     {
       "wallet": "PqrrvqRhzccdkNwYqe3GGcSsBuMF5sucGNm2MdtbZFd",
       "shortWallet": "Pqrrv...bZFd",
-      "smartScore": 77,
+      "smartScore": 81,
       "mint": "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump",
       "symbol": "EVIL",
-      "amount": 262405.525246,
-      "timestamp": 1786165988,
+      "amount": 14248731.97563,
+      "timestamp": 1786168566,
       "ageSeconds": 0
     },
     {
-      "wallet": "AYwWwueVDyHvZJbSkEqWLYjnKpZVCVus1VRiEXpPjSRu",
-      "shortWallet": "AYwWw...jSRu",
+      "wallet": "6DRBLdu5KLhjw7XvmtPt4eeQWrv8LDHuGZ17erZRWi1r",
+      "shortWallet": "6DRBL...Wi1r",
       "smartScore": 77,
-      "mint": "8LiHWfp53vNS4FXeDQXgGoH7uzWiz9tPd8hSaDLhpump",
-      "symbol": "CEO",
-      "amount": 270321.736457,
-      "timestamp": 1786165972,
-      "ageSeconds": 11
+      "mint": "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf",
+      "symbol": "Memecat",
+      "amount": 1299486.976053,
+      "timestamp": 1786168564,
+      "ageSeconds": 0
+    },
+    {
+      "wallet": "Ggd81PkJqzLJbmHHJdScxHpCLZQPUjVsRye4XW1aoqGH",
+      "shortWallet": "Ggd81...oqGH",
+      "smartScore": 79,
+      "mint": "hLArXvDs9xdDsr5hms1gEiVqdnVGeAot7AbuRpmpump",
+      "symbol": "RUBY⁠",
+      "amount": 160283.363549,
+      "timestamp": 1786168561,
+      "ageSeconds": 0
+    },
+    {
+      "wallet": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb",
+      "shortWallet": "EqiFg...r1Zb",
+      "smartScore": 75,
+      "mint": "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf",
+      "symbol": "Memecat",
+      "amount": 2479063.825541,
+      "timestamp": 1786168455,
+      "ageSeconds": 103
     },
     {
       "wallet": "64CzY9e7V4ArxHqcpUx1wP5WjxyL1Zkbt4CjFdvGvX54",
       "shortWallet": "64CzY...vX54",
-      "smartScore": 77,
+      "smartScore": 81,
       "mint": "D2pqfzyB7vxqMsLqqwKMrYAcadep5Pnvvk7hcwktpump",
       "symbol": "ca",
-      "amount": 633484.076358,
-      "timestamp": 1786165961,
-      "ageSeconds": 22
+      "amount": 1944558.002601,
+      "timestamp": 1786168429,
+      "ageSeconds": 129
     },
     {
-      "wallet": "6ik2yHwe9Cj9s6ZTNBMC8fzwKPRtWARmC2eufiWV1JLt",
-      "shortWallet": "6ik2y...1JLt",
+      "wallet": "DVSdHyyeztbdkqnVtrSg8LcdowZVVodansrxuXwfB4Re",
+      "shortWallet": "DVSdH...B4Re",
+      "smartScore": 90,
+      "mint": "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump",
+      "symbol": "wCAT",
+      "amount": 4634486.212564,
+      "timestamp": 1786168378,
+      "ageSeconds": 180
+    },
+    {
+      "wallet": "8xTwvx83evikHfR6JGizCZcKRqj1WcVKFykrh985BAgU",
+      "shortWallet": "8xTwv...BAgU",
+      "smartScore": 90,
+      "mint": "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump",
+      "symbol": "wCAT",
+      "amount": 23539338.112357,
+      "timestamp": 1786168321,
+      "ageSeconds": 237
+    },
+    {
+      "wallet": "BXQFV6zJHYK2yjANRVJmNmLwxri2rW47561nnzxq4uRU",
+      "shortWallet": "BXQFV...4uRU",
       "smartScore": 83,
-      "mint": "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump",
-      "symbol": "FROG",
-      "amount": 2068846.800657,
-      "timestamp": 1786165800,
-      "ageSeconds": 183
+      "mint": "9J2H9fBHoJSWtoHVeUde97Xz3662gyBLz6Yapcmvpump",
+      "symbol": "asparagus",
+      "amount": 5325807.262826,
+      "timestamp": 1786168263,
+      "ageSeconds": 295
     },
     {
-      "wallet": "FFp1rG3riXmfMsPvCRqq8GJTHTXz8jiPbCQz2DDXxvXx",
-      "shortWallet": "FFp1r...xvXx",
-      "smartScore": 85,
-      "mint": "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump",
-      "symbol": "FROG",
-      "amount": 9067075.55499,
-      "timestamp": 1786165762,
-      "ageSeconds": 221
+      "wallet": "92whuRJbReZBGgARbgFKPogR6f5NUD2uKgcHfxTVjhGX",
+      "shortWallet": "92whu...jhGX",
+      "smartScore": 90,
+      "mint": "38dWBqtca8dwmo7bciBcN6dAgM52pWwKCbjuDAa2pump",
+      "symbol": "38dWB...pump",
+      "amount": 8343400.753881,
+      "timestamp": 1786168260,
+      "ageSeconds": 298
     },
     {
-      "wallet": "F1K5ma7zTFwYXsHLndnEvkjcdYXRKTzyCYQcWqnsBaZQ",
-      "shortWallet": "F1K5m...BaZQ",
-      "smartScore": 85,
-      "mint": "7LNFZcNigZay5U9e2sq6n2Z4iM8BC2Dd53L14pwvpump",
-      "symbol": "7LNFZ...pump",
-      "amount": 784146.168348,
-      "timestamp": 1786165756,
-      "ageSeconds": 227
+      "wallet": "5wwpwQHb8rizRaLwSAdPnCiYgQJHeuymsT9qPLhaba8J",
+      "shortWallet": "5wwpw...ba8J",
+      "smartScore": 79,
+      "mint": "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz",
+      "symbol": "CATCOIN",
+      "amount": 2876846.358997,
+      "timestamp": 1786167997,
+      "ageSeconds": 561
     },
     {
-      "wallet": "Fwn6dDw9LqdA5ugPwDEEBFKgn7o8Ndbc6ipS5EE78C4t",
-      "shortWallet": "Fwn6d...8C4t",
-      "smartScore": 77,
-      "mint": "8ZFgswMrQkNTkbo8k1bqp7jubQ1ofiQdqKBFX3MUpump",
-      "symbol": "RAZORCOON",
-      "amount": 15129473.868945,
-      "timestamp": 1786165686,
-      "ageSeconds": 297
+      "wallet": "6sAFaCPkdUgC3MG6XRF6ubmVhk6Wx6WsYJWUNj4RwqPJ",
+      "shortWallet": "6sAFa...wqPJ",
+      "smartScore": 90,
+      "mint": "3SBzx3h9xhwzkgvayj2gekwVRyHUZsTpFSMCaKiXpump",
+      "symbol": "3SBzx...pump",
+      "amount": 190221.10559,
+      "timestamp": 1786167775,
+      "ageSeconds": 783
     },
     {
-      "wallet": "9Xox72Dxt2jXTvupSYBrEsj2Fam9BRRaZwd1hZsjxDf3",
-      "shortWallet": "9Xox7...xDf3",
+      "wallet": "HvuphGmz1zy9zdFni5Lk8iGPLEhd84v8hndD9DoWpqpq",
+      "shortWallet": "Hvuph...pqpq",
       "smartScore": 81,
-      "mint": "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump",
-      "symbol": "Froggy",
-      "amount": 530924.198678,
-      "timestamp": 1786165337,
-      "ageSeconds": 646
+      "mint": "5WMztsyRSFveo3z2oDVPBNFi3GWaiWAfcVC1XDMKpump",
+      "symbol": "5WMzt...pump",
+      "amount": 6605334.658384,
+      "timestamp": 1786167410,
+      "ageSeconds": 1148
+    },
+    {
+      "wallet": "7Gu3Cm389SDWRrBdaynbiNJ3vDZG62vj9738DYBXLqkz",
+      "shortWallet": "7Gu3C...Lqkz",
+      "smartScore": 81,
+      "mint": "JBKWfCwhW91RvkZb1S9HL8x59YuBbnVFxgwpkx8cpump",
+      "symbol": "RUBY",
+      "amount": 5116728.043102,
+      "timestamp": 1786166349,
+      "ageSeconds": 2209
     },
     {
       "wallet": "7uRmWSUpYktWtSL3AuUTKCpiniJjPq1iG6CLrAb9MGq4",
@@ -565,113 +615,62 @@
       "symbol": "EVIL",
       "amount": 28175066.166883,
       "timestamp": 1786164970,
-      "ageSeconds": 1013
+      "ageSeconds": 3588
     },
     {
-      "wallet": "A79x4Tx3D4rMTZWtwtBZ79FL4gBC5MtZmv3qi4XczE3A",
-      "shortWallet": "A79x4...zE3A",
+      "wallet": "3vPWsxhsvwQ1XS5f8Z1RYJMNJmVj5Q1JSHGKtLrnCxKz",
+      "shortWallet": "3vPWs...CxKz",
       "smartScore": 90,
-      "mint": "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump",
-      "symbol": "EVIL",
-      "amount": 28086088.308131,
-      "timestamp": 1786164970,
-      "ageSeconds": 1013
-    },
-    {
-      "wallet": "97K6nsFhBWDKwQf6heDDhDtsCRC4779LPHSFZkc2zqK4",
-      "shortWallet": "97K6n...zqK4",
-      "smartScore": 90,
-      "mint": "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump",
-      "symbol": "Bingus",
-      "amount": 44692634.54242,
-      "timestamp": 1786164888,
-      "ageSeconds": 1095
-    },
-    {
-      "wallet": "7whmkwj2KaumsrNvuhvG7iLpc3eQHYvM4HWd6CywQRtF",
-      "shortWallet": "7whmk...QRtF",
-      "smartScore": 48,
-      "mint": "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump",
-      "symbol": "Bingus",
-      "amount": 64166706.528994,
-      "timestamp": 1786164846,
-      "ageSeconds": 1137
-    },
-    {
-      "wallet": "Htap8DvGCeSmrN1RMJSaMTGvx5yp3vumsyVXgM2n6HXC",
-      "shortWallet": "Htap8...6HXC",
-      "smartScore": 90,
-      "mint": "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump",
-      "symbol": "Froggy",
-      "amount": 1103113.748924,
-      "timestamp": 1786164003,
-      "ageSeconds": 1980
-    },
-    {
-      "wallet": "GjXobpiEexQqqLkghB29AtcwyJRokbeGDSkz8Kn7GGr1",
-      "shortWallet": "GjXob...GGr1",
-      "smartScore": 90,
-      "mint": "6a3JSp2WRCkPV9ew6vhH7fL8qZ5PkugCwyoQPghxpump",
-      "symbol": "6a3JS...pump",
-      "amount": 7718605.818377,
-      "timestamp": 1786163887,
-      "ageSeconds": 2096
-    },
-    {
-      "wallet": "HXEVxpzMrzMJPB9UmZBZ4BbJcvuYpoZo8aXdVp7qSmUs",
-      "shortWallet": "HXEVx...SmUs",
-      "smartScore": 90,
-      "mint": "AGdGTQa8iRnSx4fQJehWo4Xwbh1bzTazs55R6Jwupump",
-      "symbol": "AGdGT...pump",
-      "amount": 495498.724008,
-      "timestamp": 1786067904,
-      "ageSeconds": 98079
+      "mint": "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz",
+      "symbol": "CATCOIN",
+      "amount": 41232407.81753,
+      "timestamp": 1786161407,
+      "ageSeconds": 7151
     }
   ],
   "alerts": [
     {
+      "mint": "DQuzj9z4ChZoYCkFdCBEQKVupHhzoptNtGyuQ8Pupump",
+      "symbol": "wCAT",
+      "walletCount": 2,
+      "windowMinutes": 1,
+      "confidence": 94,
+      "wallets": [
+        "8xTwv...BAgU",
+        "DVSdH...B4Re"
+      ]
+    },
+    {
       "mint": "Bk9TDu3BWe4d1RoCucuEXLgmaYS7Kjh9jfbkE2JDpump",
       "symbol": "EVIL",
-      "walletCount": 3,
-      "windowMinutes": 17,
-      "confidence": 91,
+      "walletCount": 2,
+      "windowMinutes": 60,
+      "confidence": 89,
       "wallets": [
         "7uRmW...MGq4",
-        "A79x4...zE3A",
         "Pqrrv...bZFd"
       ]
     },
     {
-      "mint": "CW8kuQr7jbKzo5Vc8u6FNhD2dUHbkzVhaGw4EPBipump",
-      "symbol": "Froggy",
+      "mint": "HpxbrGHnhsrCuxfvK3dZ6StnqU3NyAtf9kVQnnx2pWUz",
+      "symbol": "CATCOIN",
       "walletCount": 2,
-      "windowMinutes": 22,
-      "confidence": 89,
-      "wallets": [
-        "Htap8...6HXC",
-        "9Xox7...xDf3"
-      ]
-    },
-    {
-      "mint": "4DB8LoCW3jWoBZnVUdfDtWtxDuje9e213kLZtDV6pump",
-      "symbol": "FROG",
-      "walletCount": 2,
-      "windowMinutes": 1,
+      "windowMinutes": 110,
       "confidence": 88,
       "wallets": [
-        "FFp1r...xvXx",
-        "6ik2y...1JLt"
+        "3vPWs...CxKz",
+        "5wwpw...ba8J"
       ]
     },
     {
-      "mint": "7RoRbGq7ncnmoqCsHRzDeaJz7zGcBwvtVaq2uaEfpump",
-      "symbol": "Bingus",
+      "mint": "Foz9HTT5nTB2yGUsXyD5znuSDzoxUsQNUddbmpjvEdQf",
+      "symbol": "Memecat",
       "walletCount": 2,
-      "windowMinutes": 1,
-      "confidence": 73,
+      "windowMinutes": 2,
+      "confidence": 80,
       "wallets": [
-        "97K6n...zqK4",
-        "7whmk...QRtF"
+        "6DRBL...Wi1r",
+        "EqiFg...r1Zb"
       ]
     }
   ]
