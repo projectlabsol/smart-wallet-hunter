@@ -1762,7 +1762,7 @@ function renderRecentBuys(){
    SEARCH
    ========================================================= */
 
-function analyzeWallet(){
+async function analyzeWallet(){
 
     const input =
         document.getElementById(
@@ -1774,13 +1774,16 @@ function analyzeWallet(){
             "searchMessage"
         );
 
-    const query =
-        input.value
-            .trim()
-            .toLowerCase();
+    const button =
+        document.getElementById(
+            "analyzeButton"
+        );
+
+    const wallet =
+        input.value.trim();
 
 
-    if(!query){
+    if(!wallet){
 
         renderWallets(
             smartWallets
@@ -1793,41 +1796,97 @@ function analyzeWallet(){
     }
 
 
-    const filtered =
-        smartWallets.filter(wallet => {
-
-            return (
-                wallet.address
-                    .toLowerCase()
-                    .includes(query)
-
-                ||
-
-                wallet.tag
-                    .toLowerCase()
-                    .includes(query)
-            );
-
-        });
-
-
-    renderWallets(
-        filtered
-    );
-
-
-    if(filtered.length){
+    if(
+        !/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(wallet)
+    ){
 
         message.textContent =
-            `${filtered.length} matching real wallet record(s) found.`;
+            "Invalid Solana wallet address.";
 
-    }else{
-
-        message.textContent =
-            "Wallet not found in the current Smart Wallet Hunter dataset.";
-renderWallets(smartWallets);
+        return;
     }
 
+
+    message.textContent =
+        "Analyzing wallet on Solana...";
+
+
+    if(button){
+
+        button.disabled = true;
+
+        button.textContent =
+            "ANALYZING...";
+    }
+
+
+    try{
+
+        const apiUrl =
+            `https://smart-wallet-hunter-api.charlie2522024.workers.dev/analyze?wallet=${encodeURIComponent(wallet)}`;
+
+
+        const response =
+            await fetch(
+                apiUrl,
+                {
+                    cache:
+                        "no-store"
+                }
+            );
+
+
+        const data =
+            await response.json();
+
+
+        if(
+            !response.ok
+            || !data.ok
+        ){
+
+            throw new Error(
+                data.error
+                || `API error ${response.status}`
+            );
+        }
+
+
+        renderWallets(
+            [data]
+        );
+
+
+        message.textContent =
+            `REAL SOLANA ANALYSIS · ${data.walletType} · SMART SCORE ${data.smartScore}/100 · SOL 7D ${Number(data.recentSwapSol7d || 0).toFixed(2)} · MAX SWAP ${Number(data.maxSwapSol || 0).toFixed(2)} SOL`;
+
+    }
+    catch(error){
+
+        console.error(
+            "Real wallet analysis error:",
+            error
+        );
+
+
+        renderWallets(
+            smartWallets
+        );
+
+
+        message.textContent =
+            "Unable to analyze this wallet right now.";
+    }
+    finally{
+
+        if(button){
+
+            button.disabled = false;
+
+            button.textContent =
+                "ANALYZE WALLET";
+        }
+    }
 }
 
 
