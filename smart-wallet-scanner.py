@@ -756,6 +756,10 @@ def analyze_wallet(
     # We do not claim win rate or ROI yet.
     # =====================================================
 
+       # =====================================================
+    # SMART SCORE
+    # =====================================================
+
     score = 20
 
     score += min(
@@ -783,25 +787,130 @@ def analyze_wallet(
         int(score)
     )
 
-    if score >= 85:
-        tag = (
-            "High Activity Candidate"
+
+    # =====================================================
+    # WHALE DETECTION
+    #
+    # Measure observed SOL sent from this wallet
+    # during SWAP transactions.
+    # =====================================================
+
+    total_swap_sol = 0.0
+    recent_swap_sol_7d = 0.0
+    max_swap_sol = 0.0
+
+    for transaction in swaps:
+
+        native_transfers = transaction.get(
+            "nativeTransfers",
+            []
         )
+
+        if not isinstance(
+            native_transfers,
+            list
+        ):
+            continue
+
+        tx_out_lamports = 0.0
+
+        for transfer in native_transfers:
+
+            if not isinstance(
+                transfer,
+                dict
+            ):
+                continue
+
+            from_wallet = str(
+                transfer.get(
+                    "fromUserAccount",
+                    ""
+                )
+            )
+
+            if from_wallet != wallet:
+                continue
+
+            tx_out_lamports += safe_number(
+                transfer.get(
+                    "amount"
+                )
+            )
+
+        tx_out_sol = (
+            tx_out_lamports
+            / 1_000_000_000
+        )
+
+        total_swap_sol += tx_out_sol
+
+        max_swap_sol = max(
+            max_swap_sol,
+            tx_out_sol
+        )
+
+        timestamp = int(
+            safe_number(
+                transaction.get(
+                    "timestamp"
+                )
+            )
+        )
+
+        if (
+            timestamp
+            and NOW_TS - timestamp
+            <= SEVEN_DAYS
+        ):
+            recent_swap_sol_7d += (
+                tx_out_sol
+            )
+
+
+    # =====================================================
+    # WALLET CLASSIFICATION
+    #
+    # Whale threshold:
+    # 20 SOL in one observed swap
+    # OR 100 SOL observed during 7 days.
+    # =====================================================
+
+    is_whale = (
+        max_swap_sol >= 20
+        or recent_swap_sol_7d >= 100
+    )
+
+    if is_whale and score >= 85:
+
+        wallet_type = "SMART WHALE"
+        tag = "Large Smart Money Activity"
+
+    elif is_whale:
+
+        wallet_type = "WHALE"
+        tag = "Large Wallet Activity"
+
+    elif score >= 85:
+
+        wallet_type = "SMART WALLET"
+        tag = "High Activity Candidate"
 
     elif score >= 70:
-        tag = (
-            "Early Activity Candidate"
-        )
+
+        wallet_type = "SMART WALLET"
+        tag = "Early Activity Candidate"
 
     elif score >= 55:
-        tag = (
-            "Active Wallet"
-        )
+
+        wallet_type = "ACTIVE WALLET"
+        tag = "Active Wallet"
 
     else:
-        tag = (
-            "Wallet Under Review"
-        )
+
+        wallet_type = "WATCHLIST"
+        tag = "Wallet Under Review"
+
 
     return {
         "address": wallet,
@@ -811,7 +920,14 @@ def analyze_wallet(
 
         "tag": tag,
 
-        "smartScore": score,
+        "walletType":
+            wallet_type,
+
+        "isWhale":
+            is_whale,
+
+        "smartScore":
+            score,
 
         "swapCount":
             len(swaps),
@@ -824,6 +940,24 @@ def analyze_wallet(
 
         "discoverySignals":
             signal_count,
+
+        "totalObservedSwapSol":
+            round(
+                total_swap_sol,
+                4
+            ),
+
+        "recentSwapSol7d":
+            round(
+                recent_swap_sol_7d,
+                4
+            ),
+
+        "maxSwapSol":
+            round(
+                max_swap_sol,
+                4
+            ),
 
         "discoveredOn":
             discovery_tokens,
