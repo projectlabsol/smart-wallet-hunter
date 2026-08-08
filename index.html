@@ -1290,7 +1290,42 @@ function renderWallets(items){
                 Number(
                     wallet.smartScore || 0
                 );
+            const walletType =
+                wallet.walletType
+                || "SMART WALLET";
 
+            const isWhale =
+                wallet.isWhale === true;
+
+            const recentSol7d =
+                Number(
+                    wallet.recentSwapSol7d || 0
+                );
+
+            const maxSwapSol =
+                Number(
+                    wallet.maxSwapSol || 0
+                );
+
+            let typeLabel =
+                "🧠 SMART WALLET";
+
+            if(walletType === "SMART WHALE"){
+                typeLabel =
+                    "⚡🐋 SMART WHALE";
+            }
+            else if(walletType === "WHALE"){
+                typeLabel =
+                    "🐋 WHALE";
+            }
+            else if(walletType === "ACTIVE WALLET"){
+                typeLabel =
+                    "🔵 ACTIVE WALLET";
+            }
+            else if(walletType === "WATCHLIST"){
+                typeLabel =
+                    "👀 WATCHLIST";
+            }
             return `
 
                 <article class="wallet-row">
@@ -1322,8 +1357,44 @@ title="${fullAddress}">
     ${fullAddress}
 </div>
 
+<div
+    style="
+        display:inline-block;
+        margin-top:4px;
+        padding:3px 7px;
+        border-radius:6px;
+        font-size:8px;
+        font-weight:900;
+        color:${isWhale ? "#ffd65d" : "#a879ff"};
+        border:1px solid ${isWhale ? "rgba(255,214,93,.35)" : "rgba(168,121,255,.25)"};
+        background:${isWhale ? "rgba(255,214,93,.08)" : "rgba(168,121,255,.07)"};
+    "
+>
+    ${typeLabel}
+</div>
+
 <div class="wallet-tag">
     ${tag}
+</div>
+
+<div
+    style="
+        margin-top:5px;
+        font-size:8px;
+        color:#8c89a0;
+    "
+>
+    SOL 7D:
+    <strong style="color:#4dffc3;">
+        ${recentSol7d.toFixed(2)} SOL
+    </strong>
+
+    &nbsp;•&nbsp;
+
+    MAX SWAP:
+    <strong style="color:#ffd65d;">
+        ${maxSwapSol.toFixed(2)} SOL
+    </strong>
 </div>
 
 <div style="
