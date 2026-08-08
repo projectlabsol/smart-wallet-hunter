@@ -1304,15 +1304,69 @@ function renderWallets(items){
                         <div>
 
                             <div
-                                class="wallet-address"
-                                title="${fullAddress}"
-                            >
-                                ${address}
-                            </div>
+    class="wallet-address"
+    title="${fullAddress}"
+>
+    ${address}
+</div>
 
-                            <div class="wallet-tag">
-                                ${tag}
-                            </div>
+<div style="
+    margin-top:4px;
+    font-size:7px;
+    color:#77728a;
+    user-select:text;
+    cursor:text;
+    word-break:break-all;
+"
+title="${fullAddress}">
+    ${fullAddress}
+</div>
+
+<div class="wallet-tag">
+    ${tag}
+</div>
+
+<div style="
+    display:flex;
+    gap:6px;
+    margin-top:7px;
+">
+
+    <a
+        href="https://solscan.io/account/${fullAddress}"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="
+            padding:5px 8px;
+            border-radius:6px;
+            text-decoration:none;
+            font-size:8px;
+            font-weight:800;
+            color:#62b5ff;
+            border:1px solid rgba(98,181,255,.25);
+        "
+    >
+        👁 VER WALLET
+    </a>
+
+    <button
+        type="button"
+        onclick="const k='smartWalletHunterFollowed';let l=JSON.parse(localStorage.getItem(k)||'[]');const w='${fullAddress}';const i=l.indexOf(w);if(i>=0){l.splice(i,1);this.textContent='☆ FOLLOW';}else{l.push(w);this.textContent='★ FOLLOWING';}localStorage.setItem(k,JSON.stringify(l));"
+        style="
+            padding:5px 8px;
+            border-radius:6px;
+            cursor:pointer;
+            font-size:8px;
+            font-weight:800;
+            color:#a879ff;
+            background:transparent;
+            border:1px solid rgba(168,121,255,.25);
+        "
+    >
+        ☆ FOLLOW
+    </button>
+
+</div>
 
                         </div>
 
