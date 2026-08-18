@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T03:55:08.054505+00:00",
+  "updatedAt": "2026-08-18T04:23:48.975079+00:00",
   "version": 1,
   "mode": "REAL",
   "network": "Solana",
@@ -12,18 +12,83 @@
     "tokensScanned": 8,
     "walletsAnalyzed": 18,
     "recentBuys": 15,
-    "smartMoneyAlerts": 4
+    "smartMoneyAlerts": 5
   },
   "tokens": [
+    {
+      "mint": "xCRd1LLkchgUwFbLNamEboHcSVGXCQcxnvozH2mpump",
+      "source": "DEX Latest Profiles",
+      "description": "It is time to unite together under one coin,\n\nI will be rewarding all bagworkers who call out the coin on PumpFun and everyone who makes thesis's on Fomo.\n\nMurad said we need to unite together and this is the #1 way to do so.",
+      "symbol": "CAT",
+      "name": "Callout And Thesis",
+      "priceUsd": 5.721e-06,
+      "liquidityUsd": 0,
+      "marketCap": 5721.33,
+      "pairCreatedAt": 1787026582000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/13wwnjrserd5hbfnkzcbq4hrwtnbfutc5svk4rm1epak"
+    },
+    {
+      "mint": "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "AVA",
+      "name": "Ava Fontaine",
+      "priceUsd": 1.169e-05,
+      "liquidityUsd": 0,
+      "marketCap": 11698.99,
+      "pairCreatedAt": 1786970066000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/8cw7elb1hv59mqrefbqmkcsugmetqbn1h9mdtw5qmeuj"
+    },
+    {
+      "mint": "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "bulu",
+      "name": "bulu",
+      "priceUsd": 6.043e-06,
+      "liquidityUsd": 0,
+      "marketCap": 6043.87,
+      "pairCreatedAt": 1787025715000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/hzy77sugrn3bbrz1n65xy9ad3y4eg4wfmigrynq9wnjx"
+    },
+    {
+      "mint": "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump",
+      "source": "DEX Latest Profiles",
+      "description": "Frostedge: Your all-in-one browser wallet for cross-chain trading.",
+      "symbol": "FROST",
+      "name": "Frostedge",
+      "priceUsd": 2.854e-06,
+      "liquidityUsd": 0,
+      "marketCap": 2854.36,
+      "pairCreatedAt": 1787025806000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/6cjomypapfvztbqvesl2uguzytjsraikds5qj24qeakg"
+    },
+    {
+      "mint": "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump",
+      "source": "DEX Latest Profiles",
+      "description": "A dedicated space for those who understand the power of carrying heavy assets. $BAGS represents a high-caliber portfolio built on a clean, disciplined framework.",
+      "symbol": "BAGS",
+      "name": "BAGS",
+      "priceUsd": 1.593e-06,
+      "liquidityUsd": 1624.01,
+      "marketCap": 1594.0,
+      "pairCreatedAt": 1787024514000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/gvnmtn3p87irpsyotswdczxeqamfd56b3lwhjkehp6at"
+    },
     {
       "mint": "22SFN2fGHKr4gzwbbWhSpBQW9CGDuVRMRV7BJ2GLpump",
       "source": "DEX Latest Profiles",
       "description": "MrBeast’s viral dance video is now the most reposted TikTok in the history of the platform \n\nIt has over 10 million reposts!",
       "symbol": "DANCING",
       "name": "Dancing Mr Beast",
-      "priceUsd": 5.195e-06,
+      "priceUsd": 1.385e-05,
       "liquidityUsd": 0,
-      "marketCap": 5195.54,
+      "marketCap": 13851.68,
       "pairCreatedAt": 1787023884000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/cbfxkiq7iut6ynorr3a6xus9mr1myxudlxxbrzdh7pkv"
@@ -34,9 +99,9 @@
       "description": "Grocbot by Jeff.",
       "symbol": "Grocbot",
       "name": "Grocbot",
-      "priceUsd": 4.943e-06,
+      "priceUsd": 1.131e-05,
       "liquidityUsd": 0,
-      "marketCap": 4943.02,
+      "marketCap": 11310.97,
       "pairCreatedAt": 1787001922000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/ezbvr3g1fwnxnraxiawsibmv6942zu73bippyrsyeqx1"
@@ -47,234 +112,66 @@
       "description": "REXWHITELIST RABBIT\n\nThe token is designed as an ACCESS KEY to the REX GENESIS MINT\n\n WL token must be LOCKED to mint\n\nBuy → Lock → Mint → Unlock after the required period\n\nThe goal is utility + access, not investment\n\n REX GENESIS\n REXWHITELIST\n REX",
       "symbol": "REXWR",
       "name": "REX WHITE RABBIT ",
-      "priceUsd": 1.306e-05,
+      "priceUsd": 1.001e-05,
       "liquidityUsd": 0,
-      "marketCap": 13067.57,
+      "marketCap": 10012.95,
       "pairCreatedAt": 1787022640000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/dwfj9spqobkqnns818lqtysa7c4prxutgknspsx78tht"
-    },
-    {
-      "mint": "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump",
-      "source": "DEX Latest Profiles",
-      "description": "GENNY - first ever korea + china hybrid panda ever born.\n\nYoubao name is leading rn, ive attached korea + china name proof\n\nNumber 1 leading name rn - and it means Treasured + Blessed like diamonds",
-      "symbol": "佑宝",
-      "name": "유바오",
-      "priceUsd": 9.869e-05,
-      "liquidityUsd": 22029.04,
-      "marketCap": 98697.0,
-      "pairCreatedAt": 1787024484000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/8mnift4dqmofwu1ajuv3zve1tc9kjxkvxmqgcygre6k6"
-    },
-    {
-      "mint": "Hs15fmMpmXP1JJLhJSFgsDUggBagSa73oyXxeSHUpump",
-      "source": "DEX Latest Profiles",
-      "description": "unfazed male archetype",
-      "symbol": "MOAI",
-      "name": "moai",
-      "priceUsd": 1.73e-05,
-      "liquidityUsd": 0,
-      "marketCap": 17305.88,
-      "pairCreatedAt": 1787023967000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/nf73w6utnvxs4zetcgaqtwuhejtu2ggxcquxfifyuzp"
-    },
-    {
-      "mint": "8m1EDY2P34RcjuLgsCUuTrAkj84SYw7LijhEqAwpump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "dilber",
-      "name": "hopcat",
-      "priceUsd": 3.019e-06,
-      "liquidityUsd": 0,
-      "marketCap": 3019.25,
-      "pairCreatedAt": 1787023050000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/7aunvsxxg7fsrbvutnhd48t5flqcf4iqxgev3kdnigft"
-    },
-    {
-      "mint": "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump",
-      "source": "DEX Latest Profiles",
-      "description": "hi, im zoog!",
-      "symbol": "zoog",
-      "name": "zoog",
-      "priceUsd": 5.873e-06,
-      "liquidityUsd": 0,
-      "marketCap": 5873.32,
-      "pairCreatedAt": 1787023605000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/3uyv5grhud9r8b5ej4wmtugpa73codrq7seragvchoyt"
-    },
-    {
-      "mint": "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump",
-      "source": "DEX Latest Profiles",
-      "description": "$TESTIBULL, A yellow bull, a symbol of strength, growth, and upward momentum.",
-      "symbol": "TESTIBULL",
-      "name": "Testicle Bull",
-      "priceUsd": 0.0001339,
-      "liquidityUsd": 26310.92,
-      "marketCap": 133990.0,
-      "pairCreatedAt": 1787021731000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/favgbn9iyxfyphvbwk7dew6rnm4vgnv5au1jecni7hxa"
     }
   ],
   "wallets": [
     {
-      "address": "5jpu6aBbymwFLGtzhMpDFhL7Hbe4zSCRet7MCs3Y3fJJ",
-      "shortAddress": "5jpu6...3fJJ",
-      "tag": "Emerging Large Smart Money Activity",
-      "walletType": "SMART WHALE CANDIDATE",
+      "address": "7HGAkAfQdZksdT68Le4GUSnmiZAV9QeP4QFaDTXAhVh6",
+      "shortAddress": "7HGAk...hVh6",
+      "tag": "High Activity Candidate",
+      "walletType": "SMART WALLET",
       "isWhale": false,
-      "isWhaleCandidate": true,
-      "smartScore": 90,
+      "isWhaleCandidate": false,
+      "smartScore": 95,
       "swapCount": 40,
       "recentSwaps7d": 40,
-      "distinctTokens": 9,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 26.7104,
-      "recentSwapSol7d": 26.7104,
-      "maxSwapSol": 3.0022,
+      "distinctTokens": 14,
+      "discoverySignals": 2,
+      "totalObservedSwapSol": 18.6087,
+      "recentSwapSol7d": 18.6087,
+      "maxSwapSol": 2.0251,
       "discoveredOn": [
-        "CsyDiyRvSWmav2g8ZsHySmQ1oXYRGQaDw7GCFpELpump"
+        "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+        "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump"
       ],
       "latestBuy": {
-        "mint": "CsyDiyRvSWmav2g8ZsHySmQ1oXYRGQaDw7GCFpELpump",
-        "symbol": "REXWR",
-        "amount": 4548557.112397,
-        "timestamp": 1787024925,
-        "ageSeconds": 383
+        "mint": "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+        "symbol": "bulu",
+        "amount": 16963555.751704,
+        "timestamp": 1787026784,
+        "ageSeconds": 244
       }
     },
     {
-      "address": "6oyGMoGTmNhh9Cxh6M25LfMnRnbYyJ8VzYV23ZMfKEaN",
-      "shortAddress": "6oyGM...KEaN",
-      "tag": "Emerging Large Smart Money Activity",
-      "walletType": "SMART WHALE CANDIDATE",
-      "isWhale": false,
-      "isWhaleCandidate": true,
-      "smartScore": 90,
-      "swapCount": 40,
-      "recentSwaps7d": 40,
-      "distinctTokens": 12,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 22.3967,
-      "recentSwapSol7d": 22.3967,
-      "maxSwapSol": 4.304,
-      "discoveredOn": [
-        "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump"
-      ],
-      "latestBuy": {
-        "mint": "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump",
-        "symbol": "zoog",
-        "amount": 20719033.291587,
-        "timestamp": 1787025087,
-        "ageSeconds": 221
-      }
-    },
-    {
-      "address": "CBSYqV2DR4F86AFoqKD4zwP6qtMeFXXBF1ntfFUbprxV",
-      "shortAddress": "CBSYq...prxV",
+      "address": "8FiuwM6FmVKmBLCaJ6QcNScnVw4NuNs7Tt4Skf91saF8",
+      "shortAddress": "8Fiuw...saF8",
       "tag": "High Activity Candidate",
       "walletType": "SMART WALLET",
       "isWhale": false,
       "isWhaleCandidate": false,
       "smartScore": 90,
-      "swapCount": 37,
-      "recentSwaps7d": 37,
-      "distinctTokens": 10,
+      "swapCount": 36,
+      "recentSwaps7d": 36,
+      "distinctTokens": 25,
       "discoverySignals": 1,
-      "totalObservedSwapSol": 17.197,
-      "recentSwapSol7d": 17.197,
-      "maxSwapSol": 2.0038,
+      "totalObservedSwapSol": 0.0033,
+      "recentSwapSol7d": 0.0033,
+      "maxSwapSol": 0.0022,
       "discoveredOn": [
-        "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump"
+        "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump"
       ],
       "latestBuy": {
-        "mint": "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump",
-        "symbol": "Grocbot",
-        "amount": 32009993.163661,
-        "timestamp": 1787025254,
-        "ageSeconds": 54
-      }
-    },
-    {
-      "address": "7Ha7bBAXHEwVJitgv4QrGXThcCdgvyGrBCapKC3EABEe",
-      "shortAddress": "7Ha7b...ABEe",
-      "tag": "Emerging Large Smart Money Activity",
-      "walletType": "SMART WHALE CANDIDATE",
-      "isWhale": false,
-      "isWhaleCandidate": true,
-      "smartScore": 90,
-      "swapCount": 35,
-      "recentSwaps7d": 35,
-      "distinctTokens": 9,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 50.3784,
-      "recentSwapSol7d": 50.3784,
-      "maxSwapSol": 3.6952,
-      "discoveredOn": [
-        "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump"
-      ],
-      "latestBuy": {
-        "mint": "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump",
-        "symbol": "zoog",
-        "amount": 8771574.192,
-        "timestamp": 1787025284,
-        "ageSeconds": 24
-      }
-    },
-    {
-      "address": "KHWSkk2NpuWFsUmKqTK2Jp3sYvmQjSyLt5uqT5SxfRR",
-      "shortAddress": "KHWSk...xfRR",
-      "tag": "Large Smart Money Activity",
-      "walletType": "SMART WHALE",
-      "isWhale": true,
-      "isWhaleCandidate": false,
-      "smartScore": 90,
-      "swapCount": 34,
-      "recentSwaps7d": 34,
-      "distinctTokens": 9,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 166.4931,
-      "recentSwapSol7d": 166.4931,
-      "maxSwapSol": 32.0059,
-      "discoveredOn": [
-        "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump"
-      ],
-      "latestBuy": {
-        "mint": "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump",
-        "symbol": "佑宝",
-        "amount": 5563797.728205,
-        "timestamp": 1787024885,
-        "ageSeconds": 423
-      }
-    },
-    {
-      "address": "71PCu3E4JP5RDBoY6wJteqzxkKNXLyE1byg5BTAL9UtQ",
-      "shortAddress": "71PCu...9UtQ",
-      "tag": "Emerging Large Smart Money Activity",
-      "walletType": "SMART WHALE CANDIDATE",
-      "isWhale": false,
-      "isWhaleCandidate": true,
-      "smartScore": 90,
-      "swapCount": 30,
-      "recentSwaps7d": 30,
-      "distinctTokens": 14,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 23.9736,
-      "recentSwapSol7d": 23.9736,
-      "maxSwapSol": 3.5175,
-      "discoveredOn": [
-        "Hs15fmMpmXP1JJLhJSFgsDUggBagSa73oyXxeSHUpump"
-      ],
-      "latestBuy": {
-        "mint": "CqbthyKKUfn3zPML2MEK9A35tkgFtEmFrXkgVBJHQVfn",
-        "symbol": "Cqbth...QVfn",
-        "amount": 194507.705576,
-        "timestamp": 1787025317,
-        "ageSeconds": 0
+        "mint": "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump",
+        "symbol": "BAGS",
+        "amount": 7032387.518774,
+        "timestamp": 1787024514,
+        "ageSeconds": 2514
       }
     },
     {
@@ -285,9 +182,9 @@
       "isWhale": false,
       "isWhaleCandidate": false,
       "smartScore": 90,
-      "swapCount": 17,
-      "recentSwaps7d": 17,
-      "distinctTokens": 14,
+      "swapCount": 14,
+      "recentSwaps7d": 14,
+      "distinctTokens": 11,
       "discoverySignals": 1,
       "totalObservedSwapSol": 1.421,
       "recentSwapSol7d": 1.421,
@@ -300,116 +197,298 @@
         "symbol": "CmQJN...pump",
         "amount": 345974.857817,
         "timestamp": 1787024892,
-        "ageSeconds": 416
+        "ageSeconds": 2136
       }
     },
     {
-      "address": "ARwSXxAhjLdEtXF4USNrGTHEBFyi5sZdNuJUrmonVLiX",
-      "shortAddress": "ARwSX...VLiX",
-      "tag": "Large Smart Money Activity",
-      "walletType": "SMART WHALE",
-      "isWhale": true,
+      "address": "E1eMTqV752gkzrSLmeccCnjBiNBf28oYVHRN4vggQYyc",
+      "shortAddress": "E1eMT...QYyc",
+      "tag": "High Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
       "isWhaleCandidate": false,
-      "smartScore": 85,
-      "swapCount": 24,
-      "recentSwaps7d": 24,
-      "distinctTokens": 5,
+      "smartScore": 90,
+      "swapCount": 12,
+      "recentSwaps7d": 12,
+      "distinctTokens": 17,
       "discoverySignals": 1,
-      "totalObservedSwapSol": 146.5568,
-      "recentSwapSol7d": 146.5568,
-      "maxSwapSol": 15.155,
+      "totalObservedSwapSol": 5.0433,
+      "recentSwapSol7d": 5.0433,
+      "maxSwapSol": 1.3389,
       "discoveredOn": [
-        "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump"
+        "xCRd1LLkchgUwFbLNamEboHcSVGXCQcxnvozH2mpump"
       ],
       "latestBuy": {
-        "mint": "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump",
-        "symbol": "佑宝",
-        "amount": 96876.893556,
-        "timestamp": 1787024919,
-        "ageSeconds": 389
+        "mint": "E81WyYVPudyNHLehwuWzLks3YhdVMFj3cqNKmiwspump",
+        "symbol": "E81Wy...pump",
+        "amount": 4407852.678274,
+        "timestamp": 1787023151,
+        "ageSeconds": 3877
       }
     },
     {
-      "address": "54nx4bjXL5KRPgkaychfYQRaiUu79CjKGJiFTJGZDyQw",
-      "shortAddress": "54nx4...DyQw",
+      "address": "6uNEfnDEWouQT5QQiCpyFgKA5UWzEX3SThM9GCByKPSv",
+      "shortAddress": "6uNEf...KPSv",
+      "tag": "Emerging Large Smart Money Activity",
+      "walletType": "SMART WHALE CANDIDATE",
+      "isWhale": false,
+      "isWhaleCandidate": true,
+      "smartScore": 90,
+      "swapCount": 11,
+      "recentSwaps7d": 6,
+      "distinctTokens": 9,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 47.7291,
+      "recentSwapSol7d": 29.6383,
+      "maxSwapSol": 15.0073,
+      "discoveredOn": [
+        "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump"
+      ],
+      "latestBuy": {
+        "mint": "C3fawupKrXdn3X7KPTmmnkwzJQ9qycMNag55ZzQ8pump",
+        "symbol": "C3faw...pump",
+        "amount": 1923683.822919,
+        "timestamp": 1787008663,
+        "ageSeconds": 18365
+      }
+    },
+    {
+      "address": "BqhxhGUwCgGdsoYK3j8qN4UmgrLxiQT69rUCPbCeUjhX",
+      "shortAddress": "Bqhxh...UjhX",
+      "tag": "High Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 89,
+      "swapCount": 20,
+      "recentSwaps7d": 20,
+      "distinctTokens": 7,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 6.7295,
+      "recentSwapSol7d": 6.7295,
+      "maxSwapSol": 3.3199,
+      "discoveredOn": [
+        "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump"
+      ],
+      "latestBuy": {
+        "mint": "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump",
+        "symbol": "AVA",
+        "amount": 24156730.061482,
+        "timestamp": 1787026902,
+        "ageSeconds": 126
+      }
+    },
+    {
+      "address": "2J3LmHqxD1eFNVCHt61VKvE52PaHcdByyxw88KGJB5iD",
+      "shortAddress": "2J3Lm...B5iD",
+      "tag": "Emerging Large Smart Money Activity",
+      "walletType": "SMART WHALE CANDIDATE",
+      "isWhale": false,
+      "isWhaleCandidate": true,
+      "smartScore": 87,
+      "swapCount": 19,
+      "recentSwaps7d": 19,
+      "distinctTokens": 6,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 63.0999,
+      "recentSwapSol7d": 63.0999,
+      "maxSwapSol": 10.006,
+      "discoveredOn": [
+        "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump"
+      ],
+      "latestBuy": {
+        "mint": "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump",
+        "symbol": "Grocbot",
+        "amount": 35749580.181358,
+        "timestamp": 1787026958,
+        "ageSeconds": 70
+      }
+    },
+    {
+      "address": "13WWnJrsErd5hBfNkzcBQ4HrwTNbfutC5SvK4Rm1ePAk",
+      "shortAddress": "13WWn...ePAk",
       "tag": "Early Activity Candidate",
       "walletType": "SMART WALLET",
       "isWhale": false,
       "isWhaleCandidate": false,
       "smartScore": 83,
-      "swapCount": 23,
-      "recentSwaps7d": 23,
+      "swapCount": 26,
+      "recentSwaps7d": 26,
       "distinctTokens": 4,
       "discoverySignals": 1,
-      "totalObservedSwapSol": 2.0775,
-      "recentSwapSol7d": 2.0775,
-      "maxSwapSol": 0.1051,
-      "discoveredOn": [
-        "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump"
-      ],
-      "latestBuy": {
-        "mint": "BL9dXcRthVZTKTTWHngfy4XB6u1oUfPax6iByENRpump",
-        "symbol": "BL9dX...pump",
-        "amount": 2052033.449603,
-        "timestamp": 1786619189,
-        "ageSeconds": 406119
-      }
-    },
-    {
-      "address": "NF73W6utnvXS4zEtcgaQtWuHEjtu2GGXCqUXFifYuzP",
-      "shortAddress": "NF73W...YuzP",
-      "tag": "Early Activity Candidate",
-      "walletType": "SMART WALLET",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 79,
-      "swapCount": 28,
-      "recentSwaps7d": 28,
-      "distinctTokens": 2,
-      "discoverySignals": 1,
       "totalObservedSwapSol": 0.0,
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "Hs15fmMpmXP1JJLhJSFgsDUggBagSa73oyXxeSHUpump"
+        "xCRd1LLkchgUwFbLNamEboHcSVGXCQcxnvozH2mpump"
       ],
       "latestBuy": {
-        "mint": "Hs15fmMpmXP1JJLhJSFgsDUggBagSa73oyXxeSHUpump",
-        "symbol": "MOAI",
-        "amount": 1275602.347356,
-        "timestamp": 1787025305,
-        "ageSeconds": 3
-      }
-    },
-    {
-      "address": "7AunVsxXg7FSrBvutnhD48T5fLqCf4iQxGEV3kDNigfT",
-      "shortAddress": "7AunV...igfT",
-      "tag": "Early Activity Candidate",
-      "walletType": "SMART WALLET",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 79,
-      "swapCount": 23,
-      "recentSwaps7d": 23,
-      "distinctTokens": 2,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "8m1EDY2P34RcjuLgsCUuTrAkj84SYw7LijhEqAwpump"
-      ],
-      "latestBuy": {
-        "mint": "8m1EDY2P34RcjuLgsCUuTrAkj84SYw7LijhEqAwpump",
-        "symbol": "dilber",
-        "amount": 1615835.931045,
-        "timestamp": 1787025189,
-        "ageSeconds": 119
+        "mint": "xCRd1LLkchgUwFbLNamEboHcSVGXCQcxnvozH2mpump",
+        "symbol": "CAT",
+        "amount": 497984.562473,
+        "timestamp": 1787027034,
+        "ageSeconds": 0
       }
     },
     {
       "address": "EzBVR3G1FWnxnraXiaWsibMV6942ZU73biPPyRSYeqX1",
       "shortAddress": "EzBVR...eqX1",
+      "tag": "Early Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 81,
+      "swapCount": 36,
+      "recentSwaps7d": 36,
+      "distinctTokens": 3,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump"
+      ],
+      "latestBuy": {
+        "mint": "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump",
+        "symbol": "Grocbot",
+        "amount": 3706669.544814,
+        "timestamp": 1787027008,
+        "ageSeconds": 20
+      }
+    },
+    {
+      "address": "Bjc1qZ4qjQmDzXN4p4WkxvCNM2TJ26zCbmFPZWFjiPoW",
+      "shortAddress": "Bjc1q...iPoW",
+      "tag": "Emerging Large Wallet Activity",
+      "walletType": "WHALE CANDIDATE",
+      "isWhale": false,
+      "isWhaleCandidate": true,
+      "smartScore": 81,
+      "swapCount": 12,
+      "recentSwaps7d": 12,
+      "distinctTokens": 3,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 24.8969,
+      "recentSwapSol7d": 24.8969,
+      "maxSwapSol": 6.7869,
+      "discoveredOn": [
+        "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump"
+      ],
+      "latestBuy": {
+        "mint": "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump",
+        "symbol": "FROST",
+        "amount": 26578570.645349,
+        "timestamp": 1787026849,
+        "ageSeconds": 179
+      }
+    },
+    {
+      "address": "9emXYGUF7cYtX2uyuZavDhhxZ65wHcYZgRv5AHVAHGSp",
+      "shortAddress": "9emXY...HGSp",
+      "tag": "Early Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 81,
+      "swapCount": 7,
+      "recentSwaps7d": 7,
+      "distinctTokens": 17,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 2.0393,
+      "recentSwapSol7d": 2.0393,
+      "maxSwapSol": 2.0076,
+      "discoveredOn": [
+        "CsyDiyRvSWmav2g8ZsHySmQ1oXYRGQaDw7GCFpELpump"
+      ],
+      "latestBuy": {
+        "mint": "8SFexpaBMvVStRzFMASSP8w76Q4bFSj5YXfGmKPg9w9F",
+        "symbol": "8SFex...9w9F",
+        "amount": 34945284.164727,
+        "timestamp": 1787015366,
+        "ageSeconds": 11662
+      }
+    },
+    {
+      "address": "GvNmTN3P87iRPSYotSwdcZxeqAMfD56B3LwhJkeHp6at",
+      "shortAddress": "GvNmT...p6at",
+      "tag": "Early Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 79,
+      "swapCount": 40,
+      "recentSwaps7d": 40,
+      "distinctTokens": 2,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump"
+      ],
+      "latestBuy": {
+        "mint": "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump",
+        "symbol": "BAGS",
+        "amount": 44299825.107996,
+        "timestamp": 1787026734,
+        "ageSeconds": 294
+      }
+    },
+    {
+      "address": "6CJoMYPapFVzTbQVESL2uguZYtjSrAiKDs5Qj24QEAkg",
+      "shortAddress": "6CJoM...EAkg",
+      "tag": "Early Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 79,
+      "swapCount": 36,
+      "recentSwaps7d": 36,
+      "distinctTokens": 2,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump"
+      ],
+      "latestBuy": {
+        "mint": "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump",
+        "symbol": "FROST",
+        "amount": 15573323.33301,
+        "timestamp": 1787026868,
+        "ageSeconds": 160
+      }
+    },
+    {
+      "address": "8cW7ELb1HV59mqrefBqmkcSUgMetqBn1H9mdtw5qmeuJ",
+      "shortAddress": "8cW7E...meuJ",
+      "tag": "Early Activity Candidate",
+      "walletType": "SMART WALLET",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 79,
+      "swapCount": 33,
+      "recentSwaps7d": 33,
+      "distinctTokens": 2,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump"
+      ],
+      "latestBuy": {
+        "mint": "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump",
+        "symbol": "AVA",
+        "amount": 12649548.383581,
+        "timestamp": 1787027031,
+        "ageSeconds": 0
+      }
+    },
+    {
+      "address": "Hzy77SUGRN3BBRZ1n65xY9aD3Y4Eg4WfmiGRyNQ9WnjX",
+      "shortAddress": "Hzy77...WnjX",
       "tag": "Early Activity Candidate",
       "walletType": "SMART WALLET",
       "isWhale": false,
@@ -423,26 +502,26 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump"
+        "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump"
       ],
       "latestBuy": {
-        "mint": "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump",
-        "symbol": "Grocbot",
-        "amount": 1361620.921244,
-        "timestamp": 1787025313,
-        "ageSeconds": 0
+        "mint": "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+        "symbol": "bulu",
+        "amount": 692256.010038,
+        "timestamp": 1787027001,
+        "ageSeconds": 27
       }
     },
     {
       "address": "CBfxkiq7iuT6ynorr3A6xuS9MR1myxUdLxxBrzDh7PKV",
       "shortAddress": "CBfxk...7PKV",
-      "tag": "Early Activity Candidate",
-      "walletType": "SMART WALLET",
+      "tag": "Active Wallet",
+      "walletType": "ACTIVE WALLET",
       "isWhale": false,
       "isWhaleCandidate": false,
-      "smartScore": 77,
-      "swapCount": 12,
-      "recentSwaps7d": 12,
+      "smartScore": 68,
+      "swapCount": 7,
+      "recentSwaps7d": 7,
       "distinctTokens": 1,
       "discoverySignals": 1,
       "totalObservedSwapSol": 0.0,
@@ -454,66 +533,14 @@
       "latestBuy": {
         "mint": "22SFN2fGHKr4gzwbbWhSpBQW9CGDuVRMRV7BJ2GLpump",
         "symbol": "DANCING",
-        "amount": 7299570.876475,
-        "timestamp": 1787025040,
-        "ageSeconds": 268
+        "amount": 47048.472479,
+        "timestamp": 1787027038,
+        "ageSeconds": 0
       }
     },
     {
-      "address": "HJwGZAt4vJmE2BVo1XJERt4YdRn1LWn4rG8KZyhb4Tpw",
-      "shortAddress": "HJwGZ...4Tpw",
-      "tag": "Active Wallet",
-      "walletType": "ACTIVE WALLET",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 62,
-      "swapCount": 5,
-      "recentSwaps7d": 5,
-      "distinctTokens": 1,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 8.0751,
-      "recentSwapSol7d": 8.0751,
-      "maxSwapSol": 2.2699,
-      "discoveredOn": [
-        "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump"
-      ],
-      "latestBuy": {
-        "mint": "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump",
-        "symbol": "TESTIBULL",
-        "amount": 445335.513472,
-        "timestamp": 1787024615,
-        "ageSeconds": 693
-      }
-    },
-    {
-      "address": "EbvjKveWX2qv33iepF5D23ke4oLzHFWtHbAe8AWnWMzA",
-      "shortAddress": "EbvjK...WMzA",
-      "tag": "Active Wallet",
-      "walletType": "ACTIVE WALLET",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 55,
-      "swapCount": 4,
-      "recentSwaps7d": 4,
-      "distinctTokens": 1,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 6.983,
-      "recentSwapSol7d": 6.983,
-      "maxSwapSol": 2.2696,
-      "discoveredOn": [
-        "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump"
-      ],
-      "latestBuy": {
-        "mint": "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump",
-        "symbol": "TESTIBULL",
-        "amount": 735327.879119,
-        "timestamp": 1787024138,
-        "ageSeconds": 1170
-      }
-    },
-    {
-      "address": "DiBiwF5kwvhFc5EGkXE6Pje3XoqMmWjvE9MVtXjZhfft",
-      "shortAddress": "DiBiw...hfft",
+      "address": "E2E7ogkc5BbTRgX7Ji6r84ZwqUb16EHxPcgV19Ly6NEY",
+      "shortAddress": "E2E7o...6NEY",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -521,47 +548,27 @@
       "smartScore": 40,
       "swapCount": 0,
       "recentSwaps7d": 0,
-      "distinctTokens": 15,
+      "distinctTokens": 16,
       "discoverySignals": 1,
       "totalObservedSwapSol": 0.0,
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "8m1EDY2P34RcjuLgsCUuTrAkj84SYw7LijhEqAwpump"
+        "xCRd1LLkchgUwFbLNamEboHcSVGXCQcxnvozH2mpump"
       ],
       "latestBuy": null
     },
     {
-      "address": "CPd3Kc5YcBowwCjVAd377AnqznWVe9m6GjEufmMawcF5",
-      "shortAddress": "CPd3K...wcF5",
+      "address": "J9eRbyUdDFzS7YrGTfaqqR8eBsBP7HpwuvY9UTEkQpyJ",
+      "shortAddress": "J9eRb...QpyJ",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
       "isWhaleCandidate": false,
-      "smartScore": 37,
+      "smartScore": 31,
       "swapCount": 0,
       "recentSwaps7d": 0,
-      "distinctTokens": 6,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "22SFN2fGHKr4gzwbbWhSpBQW9CGDuVRMRV7BJ2GLpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "2nG3qWwf6QoMwPD7pSSfcMGvZ3YtzV5x1N3RFBWE8Wsp",
-      "shortAddress": "2nG3q...8Wsp",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 35,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 5,
+      "distinctTokens": 3,
       "discoverySignals": 1,
       "totalObservedSwapSol": 0.0,
       "recentSwapSol7d": 0.0,
@@ -574,104 +581,114 @@
   ],
   "recentBuys": [
     {
-      "wallet": "71PCu3E4JP5RDBoY6wJteqzxkKNXLyE1byg5BTAL9UtQ",
-      "shortWallet": "71PCu...9UtQ",
-      "smartScore": 90,
-      "mint": "CqbthyKKUfn3zPML2MEK9A35tkgFtEmFrXkgVBJHQVfn",
-      "symbol": "Cqbth...QVfn",
-      "amount": 194507.705576,
-      "timestamp": 1787025317,
+      "wallet": "CBfxkiq7iuT6ynorr3A6xuS9MR1myxUdLxxBrzDh7PKV",
+      "shortWallet": "CBfxk...7PKV",
+      "smartScore": 68,
+      "mint": "22SFN2fGHKr4gzwbbWhSpBQW9CGDuVRMRV7BJ2GLpump",
+      "symbol": "DANCING",
+      "amount": 47048.472479,
+      "timestamp": 1787027038,
+      "ageSeconds": 0
+    },
+    {
+      "wallet": "13WWnJrsErd5hBfNkzcBQ4HrwTNbfutC5SvK4Rm1ePAk",
+      "shortWallet": "13WWn...ePAk",
+      "smartScore": 83,
+      "mint": "xCRd1LLkchgUwFbLNamEboHcSVGXCQcxnvozH2mpump",
+      "symbol": "CAT",
+      "amount": 497984.562473,
+      "timestamp": 1787027034,
+      "ageSeconds": 0
+    },
+    {
+      "wallet": "8cW7ELb1HV59mqrefBqmkcSUgMetqBn1H9mdtw5qmeuJ",
+      "shortWallet": "8cW7E...meuJ",
+      "smartScore": 79,
+      "mint": "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump",
+      "symbol": "AVA",
+      "amount": 12649548.383581,
+      "timestamp": 1787027031,
       "ageSeconds": 0
     },
     {
       "wallet": "EzBVR3G1FWnxnraXiaWsibMV6942ZU73biPPyRSYeqX1",
       "shortWallet": "EzBVR...eqX1",
-      "smartScore": 77,
+      "smartScore": 81,
       "mint": "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump",
       "symbol": "Grocbot",
-      "amount": 1361620.921244,
-      "timestamp": 1787025313,
-      "ageSeconds": 0
+      "amount": 3706669.544814,
+      "timestamp": 1787027008,
+      "ageSeconds": 20
     },
     {
-      "wallet": "NF73W6utnvXS4zEtcgaQtWuHEjtu2GGXCqUXFifYuzP",
-      "shortWallet": "NF73W...YuzP",
-      "smartScore": 79,
-      "mint": "Hs15fmMpmXP1JJLhJSFgsDUggBagSa73oyXxeSHUpump",
-      "symbol": "MOAI",
-      "amount": 1275602.347356,
-      "timestamp": 1787025305,
-      "ageSeconds": 3
+      "wallet": "Hzy77SUGRN3BBRZ1n65xY9aD3Y4Eg4WfmiGRyNQ9WnjX",
+      "shortWallet": "Hzy77...WnjX",
+      "smartScore": 77,
+      "mint": "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+      "symbol": "bulu",
+      "amount": 692256.010038,
+      "timestamp": 1787027001,
+      "ageSeconds": 27
     },
     {
-      "wallet": "7Ha7bBAXHEwVJitgv4QrGXThcCdgvyGrBCapKC3EABEe",
-      "shortWallet": "7Ha7b...ABEe",
-      "smartScore": 90,
-      "mint": "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump",
-      "symbol": "zoog",
-      "amount": 8771574.192,
-      "timestamp": 1787025284,
-      "ageSeconds": 24
-    },
-    {
-      "wallet": "CBSYqV2DR4F86AFoqKD4zwP6qtMeFXXBF1ntfFUbprxV",
-      "shortWallet": "CBSYq...prxV",
-      "smartScore": 90,
+      "wallet": "2J3LmHqxD1eFNVCHt61VKvE52PaHcdByyxw88KGJB5iD",
+      "shortWallet": "2J3Lm...B5iD",
+      "smartScore": 87,
       "mint": "Xwvk1rEgkkUUynkYemnF4dgEo7T3AEWarK2bbLQpump",
       "symbol": "Grocbot",
-      "amount": 32009993.163661,
-      "timestamp": 1787025254,
-      "ageSeconds": 54
+      "amount": 35749580.181358,
+      "timestamp": 1787026958,
+      "ageSeconds": 70
     },
     {
-      "wallet": "7AunVsxXg7FSrBvutnhD48T5fLqCf4iQxGEV3kDNigfT",
-      "shortWallet": "7AunV...igfT",
+      "wallet": "BqhxhGUwCgGdsoYK3j8qN4UmgrLxiQT69rUCPbCeUjhX",
+      "shortWallet": "Bqhxh...UjhX",
+      "smartScore": 89,
+      "mint": "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump",
+      "symbol": "AVA",
+      "amount": 24156730.061482,
+      "timestamp": 1787026902,
+      "ageSeconds": 126
+    },
+    {
+      "wallet": "6CJoMYPapFVzTbQVESL2uguZYtjSrAiKDs5Qj24QEAkg",
+      "shortWallet": "6CJoM...EAkg",
       "smartScore": 79,
-      "mint": "8m1EDY2P34RcjuLgsCUuTrAkj84SYw7LijhEqAwpump",
-      "symbol": "dilber",
-      "amount": 1615835.931045,
-      "timestamp": 1787025189,
-      "ageSeconds": 119
+      "mint": "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump",
+      "symbol": "FROST",
+      "amount": 15573323.33301,
+      "timestamp": 1787026868,
+      "ageSeconds": 160
     },
     {
-      "wallet": "6oyGMoGTmNhh9Cxh6M25LfMnRnbYyJ8VzYV23ZMfKEaN",
-      "shortWallet": "6oyGM...KEaN",
-      "smartScore": 90,
-      "mint": "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump",
-      "symbol": "zoog",
-      "amount": 20719033.291587,
-      "timestamp": 1787025087,
-      "ageSeconds": 221
+      "wallet": "Bjc1qZ4qjQmDzXN4p4WkxvCNM2TJ26zCbmFPZWFjiPoW",
+      "shortWallet": "Bjc1q...iPoW",
+      "smartScore": 81,
+      "mint": "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump",
+      "symbol": "FROST",
+      "amount": 26578570.645349,
+      "timestamp": 1787026849,
+      "ageSeconds": 179
     },
     {
-      "wallet": "CBfxkiq7iuT6ynorr3A6xuS9MR1myxUdLxxBrzDh7PKV",
-      "shortWallet": "CBfxk...7PKV",
-      "smartScore": 77,
-      "mint": "22SFN2fGHKr4gzwbbWhSpBQW9CGDuVRMRV7BJ2GLpump",
-      "symbol": "DANCING",
-      "amount": 7299570.876475,
-      "timestamp": 1787025040,
-      "ageSeconds": 268
+      "wallet": "7HGAkAfQdZksdT68Le4GUSnmiZAV9QeP4QFaDTXAhVh6",
+      "shortWallet": "7HGAk...hVh6",
+      "smartScore": 95,
+      "mint": "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+      "symbol": "bulu",
+      "amount": 16963555.751704,
+      "timestamp": 1787026784,
+      "ageSeconds": 244
     },
     {
-      "wallet": "5jpu6aBbymwFLGtzhMpDFhL7Hbe4zSCRet7MCs3Y3fJJ",
-      "shortWallet": "5jpu6...3fJJ",
-      "smartScore": 90,
-      "mint": "CsyDiyRvSWmav2g8ZsHySmQ1oXYRGQaDw7GCFpELpump",
-      "symbol": "REXWR",
-      "amount": 4548557.112397,
-      "timestamp": 1787024925,
-      "ageSeconds": 383
-    },
-    {
-      "wallet": "ARwSXxAhjLdEtXF4USNrGTHEBFyi5sZdNuJUrmonVLiX",
-      "shortWallet": "ARwSX...VLiX",
-      "smartScore": 85,
-      "mint": "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump",
-      "symbol": "佑宝",
-      "amount": 96876.893556,
-      "timestamp": 1787024919,
-      "ageSeconds": 389
+      "wallet": "GvNmTN3P87iRPSYotSwdcZxeqAMfD56B3LwhJkeHp6at",
+      "shortWallet": "GvNmT...p6at",
+      "smartScore": 79,
+      "mint": "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump",
+      "symbol": "BAGS",
+      "amount": 44299825.107996,
+      "timestamp": 1787026734,
+      "ageSeconds": 294
     },
     {
       "wallet": "CPnTiY3Yik6UNezffCG8bWXHMeKN5F3wHonpvYdgHU3n",
@@ -681,70 +698,71 @@
       "symbol": "CmQJN...pump",
       "amount": 345974.857817,
       "timestamp": 1787024892,
-      "ageSeconds": 416
+      "ageSeconds": 2136
     },
     {
-      "wallet": "KHWSkk2NpuWFsUmKqTK2Jp3sYvmQjSyLt5uqT5SxfRR",
-      "shortWallet": "KHWSk...xfRR",
+      "wallet": "8FiuwM6FmVKmBLCaJ6QcNScnVw4NuNs7Tt4Skf91saF8",
+      "shortWallet": "8Fiuw...saF8",
       "smartScore": 90,
-      "mint": "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump",
-      "symbol": "佑宝",
-      "amount": 5563797.728205,
-      "timestamp": 1787024885,
-      "ageSeconds": 423
+      "mint": "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump",
+      "symbol": "BAGS",
+      "amount": 7032387.518774,
+      "timestamp": 1787024514,
+      "ageSeconds": 2514
     },
     {
-      "wallet": "HJwGZAt4vJmE2BVo1XJERt4YdRn1LWn4rG8KZyhb4Tpw",
-      "shortWallet": "HJwGZ...4Tpw",
-      "smartScore": 62,
-      "mint": "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump",
-      "symbol": "TESTIBULL",
-      "amount": 445335.513472,
-      "timestamp": 1787024615,
-      "ageSeconds": 693
+      "wallet": "E1eMTqV752gkzrSLmeccCnjBiNBf28oYVHRN4vggQYyc",
+      "shortWallet": "E1eMT...QYyc",
+      "smartScore": 90,
+      "mint": "E81WyYVPudyNHLehwuWzLks3YhdVMFj3cqNKmiwspump",
+      "symbol": "E81Wy...pump",
+      "amount": 4407852.678274,
+      "timestamp": 1787023151,
+      "ageSeconds": 3877
     },
     {
-      "wallet": "EbvjKveWX2qv33iepF5D23ke4oLzHFWtHbAe8AWnWMzA",
-      "shortWallet": "EbvjK...WMzA",
-      "smartScore": 55,
-      "mint": "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump",
-      "symbol": "TESTIBULL",
-      "amount": 735327.879119,
-      "timestamp": 1787024138,
-      "ageSeconds": 1170
-    },
-    {
-      "wallet": "54nx4bjXL5KRPgkaychfYQRaiUu79CjKGJiFTJGZDyQw",
-      "shortWallet": "54nx4...DyQw",
-      "smartScore": 83,
-      "mint": "BL9dXcRthVZTKTTWHngfy4XB6u1oUfPax6iByENRpump",
-      "symbol": "BL9dX...pump",
-      "amount": 2052033.449603,
-      "timestamp": 1786619189,
-      "ageSeconds": 406119
+      "wallet": "9emXYGUF7cYtX2uyuZavDhhxZ65wHcYZgRv5AHVAHGSp",
+      "shortWallet": "9emXY...HGSp",
+      "smartScore": 81,
+      "mint": "8SFexpaBMvVStRzFMASSP8w76Q4bFSj5YXfGmKPg9w9F",
+      "symbol": "8SFex...9w9F",
+      "amount": 34945284.164727,
+      "timestamp": 1787015366,
+      "ageSeconds": 11662
     }
   ],
   "alerts": [
     {
-      "mint": "HXL8TTMZCt2NxFYLQvq6Yw1VViN7NCNSP6F6jNNYpump",
-      "symbol": "zoog",
+      "mint": "9breyVDwJD3tpPzJYhpX3BHHxKfZoPhqX3vfhKhfpump",
+      "symbol": "bulu",
       "walletCount": 2,
-      "windowMinutes": 3,
-      "confidence": 94,
+      "windowMinutes": 4,
+      "confidence": 90,
       "wallets": [
-        "6oyGM...KEaN",
-        "7Ha7b...ABEe"
+        "7HGAk...hVh6",
+        "Hzy77...WnjX"
       ]
     },
     {
-      "mint": "33Nau1ZZSfNnxYRW9ADdqQCvdpfZQ8XsTdLGxkUPpump",
-      "symbol": "佑宝",
+      "mint": "2qZyYBNez94ojon72PsX4EbCn1LwyPNNbAaCSgwBpump",
+      "symbol": "BAGS",
       "walletCount": 2,
-      "windowMinutes": 1,
-      "confidence": 91,
+      "windowMinutes": 37,
+      "confidence": 88,
       "wallets": [
-        "KHWSk...xfRR",
-        "ARwSX...VLiX"
+        "8Fiuw...saF8",
+        "GvNmT...p6at"
+      ]
+    },
+    {
+      "mint": "JDYzqS1bW4NhWxgBPm2eN3vee7gzdhCKEVeQ9JDUpump",
+      "symbol": "AVA",
+      "walletCount": 2,
+      "windowMinutes": 2,
+      "confidence": 88,
+      "wallets": [
+        "Bqhxh...UjhX",
+        "8cW7E...meuJ"
       ]
     },
     {
@@ -752,21 +770,21 @@
       "symbol": "Grocbot",
       "walletCount": 2,
       "windowMinutes": 1,
-      "confidence": 87,
+      "confidence": 88,
       "wallets": [
-        "CBSYq...prxV",
+        "2J3Lm...B5iD",
         "EzBVR...eqX1"
       ]
     },
     {
-      "mint": "3JKhx3e5pPbDkwUP7oP4JFXGwk23z2NtrHWVKPVYpump",
-      "symbol": "TESTIBULL",
+      "mint": "BU1qnEnAt2RtJqn5sdnH5pU8jK9xp6F9wCPgN9HNpump",
+      "symbol": "FROST",
       "walletCount": 2,
-      "windowMinutes": 8,
-      "confidence": 62,
+      "windowMinutes": 1,
+      "confidence": 84,
       "wallets": [
-        "HJwGZ...4Tpw",
-        "EbvjK...WMzA"
+        "Bjc1q...iPoW",
+        "6CJoM...EAkg"
       ]
     }
   ]
