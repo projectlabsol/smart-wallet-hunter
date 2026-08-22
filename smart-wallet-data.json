@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T10:38:02.301479+00:00",
+  "updatedAt": "2026-08-22T10:56:46.229781+00:00",
   "version": 1,
   "mode": "REAL",
   "network": "Solana",
@@ -16,14 +16,53 @@
   },
   "tokens": [
     {
+      "mint": "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump",
+      "source": "DEX Latest Profiles",
+      "description": "Wak The Last Survivor",
+      "symbol": "Wak",
+      "name": "The Last Survivor",
+      "priceUsd": 2.014e-05,
+      "liquidityUsd": 0,
+      "marketCap": 20148.86,
+      "pairCreatedAt": 1787394934000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/9gtkgpmnrodwgygjmnxtxtusvjltmj4q7twvjxho2ynk"
+    },
+    {
+      "mint": "5MVro1rVb5Y21wzhsKWtH6zdPCBsnrr7HmZS6BcVpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "ET1",
+      "name": "ET1 Galbot",
+      "priceUsd": 9.835e-06,
+      "liquidityUsd": 0,
+      "marketCap": 9835.26,
+      "pairCreatedAt": 1787395059000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/ygtsoztc6lyvb5hs5qtqb7cwxwakecygwsyxzyfkyc6"
+    },
+    {
+      "mint": "4GDZW7vwR2zbdMX8zgkGmx1VovJoGUVjpDUSoEZVpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "FARM",
+      "name": "The Bot Farm",
+      "priceUsd": 1.621e-05,
+      "liquidityUsd": 0,
+      "marketCap": 16215.23,
+      "pairCreatedAt": 1787395110000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/bsuv8gowaa91xqrcydpxrdrcgpkmxvq5xughyqwfxw9w"
+    },
+    {
       "mint": "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump",
       "source": "DEX Latest Profiles",
       "description": "Cash Cate is here to stack bags, chase green candles, and turn every meme into pure cash money energy.",
       "symbol": "CASHCATE",
       "name": "Cash Cate",
-      "priceUsd": 0.0001677,
-      "liquidityUsd": 32139.22,
-      "marketCap": 167719.0,
+      "priceUsd": 0.0001726,
+      "liquidityUsd": 32904.84,
+      "marketCap": 172643.0,
       "pairCreatedAt": 1787393619000,
       "dex": "pumpswap",
       "dexUrl": "https://dexscreener.com/solana/6uyz7ms6i1sjedyoasarzkge2mjhluvyjvzsdisy2jhh"
@@ -34,9 +73,9 @@
       "description": "",
       "symbol": "CIG",
       "name": "Cats in Gaza",
-      "priceUsd": 1.751e-05,
+      "priceUsd": 1.868e-05,
       "liquidityUsd": 0,
-      "marketCap": 17515.57,
+      "marketCap": 18686.31,
       "pairCreatedAt": 1787387819000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/fpz319vifyxrgwwtybtk8mq8p4pa8rqu5osc67h5cvsv"
@@ -47,9 +86,9 @@
       "description": "",
       "symbol": "CHIP",
       "name": "CHIP COIN",
-      "priceUsd": 3.689e-06,
+      "priceUsd": 3.008e-06,
       "liquidityUsd": 0,
-      "marketCap": 3689.95,
+      "marketCap": 3008.13,
       "pairCreatedAt": 1787393994000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/5uxttg5gvkkle3vaxzfaocnkamvca7wv6kuvqi9vq8uz"
@@ -60,9 +99,9 @@
       "description": "",
       "symbol": "CHILLI",
       "name": "Chillicoin",
-      "priceUsd": 3.633e-06,
-      "liquidityUsd": 3283.68,
-      "marketCap": 3633.0,
+      "priceUsd": 2.891e-06,
+      "liquidityUsd": 2752.71,
+      "marketCap": 2892.0,
       "pairCreatedAt": 1787393392000,
       "dex": "pumpswap",
       "dexUrl": "https://dexscreener.com/solana/3j5rq5rtjceeitduo1wkirt2pjjkfw8pz8hkpgdquvft"
@@ -73,57 +112,18 @@
       "description": "MirageAGI is a Solana-native reasoning model built for DApp architecture analysis, codebase comprehension, execution tracing, and intelligent developer workflows.",
       "symbol": "MIRAGE",
       "name": "mirage Agi",
-      "priceUsd": 1.552e-05,
+      "priceUsd": 5.219e-06,
       "liquidityUsd": 0,
-      "marketCap": 15523.65,
+      "marketCap": 5219.29,
       "pairCreatedAt": 1787380382000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/2deph8v8qav37vjvpyjfpsuha8nx9a3ex56ker1fbrco"
-    },
-    {
-      "mint": "5scDagkC98Voo4DYu8NRhvcXVkwwTd5o8eNUBR7qpump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "HOT",
-      "name": "Hotcoin",
-      "priceUsd": 3.956e-06,
-      "liquidityUsd": 3522.28,
-      "marketCap": 3956.0,
-      "pairCreatedAt": 1787393622000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/5sctnszbq5swj7rgzsamwz1tbc7jzkzi1t4psn9xzfim"
-    },
-    {
-      "mint": "4AV6NzssbWmnQeTvocWVKTvLbiEgh2ELMoNhyx7Upump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "Steven",
-      "name": "Steven Seagal",
-      "priceUsd": 5.011e-06,
-      "liquidityUsd": 0,
-      "marketCap": 5011.06,
-      "pairCreatedAt": 1787393054000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/2fe64zphdracsgdxdjfsgrpbc9ezfcbzhexh8m1fdafv"
-    },
-    {
-      "mint": "FLPznQ5VBGbXydCeN7krWxhBL8EuX1T72WoVnqy9pump",
-      "source": "DEX Latest Profiles",
-      "description": "Introducing $Faircoin a Cashback token built for the community 💰\n\n🔥 Fair dev first buy: only ~0.9 SOL\n🚫 No snipers\n🚫 No insiders\n🤝 Just a Faircoin\n\n💸 Cashback focused\n🌱 Fair launch\n🪙 Built for the community",
-      "symbol": "Faircoin",
-      "name": "Faircoin",
-      "priceUsd": 3.144e-06,
-      "liquidityUsd": 0,
-      "marketCap": 3144.25,
-      "pairCreatedAt": 1787391230000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/hh5dpjmwn1e6v2dlfqyw5mnshqsutx13khc5mhgznk19"
     }
   ],
   "wallets": [
     {
-      "address": "GGpewykoNC1Wq7rHzGpKtkLRicwfh2WbJujPRAQYNo98",
-      "shortAddress": "GGpew...No98",
+      "address": "ExP6ATSbEaBcjHN9FEmNEjzMtZoFBiPH4B3SD9QrMMbn",
+      "shortAddress": "ExP6A...MMbn",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -137,13 +137,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump"
+        "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump"
       ],
       "latestBuy": null
     },
     {
-      "address": "5dx5nMzFhALsiEXhXCJH9B78HiStJZ1gbeU8bvCxkeuM",
-      "shortAddress": "5dx5n...keuM",
+      "address": "EqiFgyNw6kgrmYstWyrP8VjKhka7XEmKTZzHSmwpr1Zb",
+      "shortAddress": "EqiFg...r1Zb",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -157,13 +157,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump"
+        "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump"
       ],
       "latestBuy": null
     },
     {
-      "address": "BvMJoX68xMRW3PLvzMKqRNp71nc53HtvvqPfKGgwHtwV",
-      "shortAddress": "BvMJo...HtwV",
+      "address": "2mVSZkLiaqkovi5q4aDdyqfSgQsuwJHqFYSaoAW3j3bH",
+      "shortAddress": "2mVSZ...j3bH",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -177,13 +177,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump"
+        "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump"
       ],
       "latestBuy": null
     },
     {
-      "address": "AzaUvPDkQF2KjYHTFeYnkJXuNSxab5NcX4LsRDRub4mV",
-      "shortAddress": "AzaUv...b4mV",
+      "address": "FzcxDvMqFFJhmuRLR8LXPg5gGnXNpRLp5cYE4Q1NiV2Y",
+      "shortAddress": "FzcxD...iV2Y",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -197,13 +197,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump"
+        "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump"
       ],
       "latestBuy": null
     },
     {
-      "address": "66RBhJAqFNGainygWJ2HviUun6cdoL8CNM4LSqQowXvE",
-      "shortAddress": "66RBh...wXvE",
+      "address": "6mLDGoB8qi2y5ueUpFrzgJnxHhV6gHsktbxN5x8Rjsog",
+      "shortAddress": "6mLDG...jsog",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -217,13 +217,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump"
+        "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump"
       ],
       "latestBuy": null
     },
     {
-      "address": "88eB2qKujdjaEmh28hut5ej6wpGDQE2ZnnV2cixCSe9k",
-      "shortAddress": "88eB2...Se9k",
+      "address": "B2CtuvMQZ1343ab6qcJCFEHefiWqBWvDjPPowx5duAbi",
+      "shortAddress": "B2Ctu...uAbi",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -237,7 +237,7 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "S78t3tTkXk78xPsMDb8Z1j4zd2RXwacwUzrP7FHpump"
+        "ZGz3Z7fTrhzHrTQmY5cFNznYmTWUkpwRtrrvyo3pump"
       ],
       "latestBuy": null
     }
