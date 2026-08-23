@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T10:56:51.524626+00:00",
+  "updatedAt": "2026-08-23T11:14:41.626655+00:00",
   "version": 1,
   "mode": "REAL",
   "network": "Solana",
@@ -10,20 +10,59 @@
   "methodology": "Smart Score v1 measures observed wallet activity and early-token signals. It is not a verified profit, ROI, or win-rate score.",
   "stats": {
     "tokensScanned": 8,
-    "walletsAnalyzed": 12,
+    "walletsAnalyzed": 6,
     "recentBuys": 0,
     "smartMoneyAlerts": 0
   },
   "tokens": [
+    {
+      "mint": "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump",
+      "source": "DEX Latest Profiles",
+      "description": "",
+      "symbol": "bet",
+      "name": "bet",
+      "priceUsd": 7.205e-06,
+      "liquidityUsd": 0,
+      "marketCap": 7205.11,
+      "pairCreatedAt": 1787482332000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/acetv2xeetkdgcbe4efysgkxfutgjtuudmwg5j8kozvi"
+    },
+    {
+      "mint": "8UBwyJJMuqQfWBbiek9RaY6uN1epFpp8dJRKinzEpump",
+      "source": "DEX Latest Profiles",
+      "description": "HOW DID WE NOT SEND THE MOST OBVIOUS SOLANA CAT YET\n\nToly literally has 2 cats\n\nAnd both of them are named RUG\n\nWe’re in a whole cat meta rn and somehow nobody properly sent the Solana co-founder’s own cats\n\nProbably the most crypto cat name possible",
+      "symbol": "RUG",
+      "name": "Rugcoin",
+      "priceUsd": 9.399e-05,
+      "liquidityUsd": 23643.86,
+      "marketCap": 93996.0,
+      "pairCreatedAt": 1787482907000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/3i3vhloxznjcebnx9ozoxlb5yypshesscdpuqdq5gr5b"
+    },
+    {
+      "mint": "6viwViudfDz2s9C7CoqUTPVHZDksywbaf1sxTH9jpump",
+      "source": "DEX Latest Profiles",
+      "description": "BullishCat claws through every dip, hunts green candles, and purrs straight toward the moon.",
+      "symbol": "BULLISHCAT",
+      "name": "BullishCat",
+      "priceUsd": 1.734e-06,
+      "liquidityUsd": 1792.78,
+      "marketCap": 1734.0,
+      "pairCreatedAt": 1787481644000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/5a839pv17nkfxfgeh3my6pobyt9hd1dr7pbluxfedxke"
+    },
     {
       "mint": "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump",
       "source": "DEX Latest Profiles",
       "description": "",
       "symbol": "Assassin",
       "name": "Baby Assassin",
-      "priceUsd": 6.333e-06,
+      "priceUsd": 6.555e-06,
       "liquidityUsd": 0,
-      "marketCap": 6333.86,
+      "marketCap": 6555.45,
       "pairCreatedAt": 1787480524000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/2biymenjsl8gc6wxpa2vcwtzunbgjbobabyetj6nzb5n"
@@ -34,9 +73,9 @@
       "description": "",
       "symbol": "caaaaaaaaaaat",
       "name": "caaaaaaaaaaaaaaaaaaaaaaaaaaaaaat",
-      "priceUsd": 7.63e-06,
+      "priceUsd": 1.536e-05,
       "liquidityUsd": 0,
-      "marketCap": 7630.4,
+      "marketCap": 15364.12,
       "pairCreatedAt": 1787481480000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/4p6ezabywqadvppbj1avjwcsxgfe3nmnaeddie5s5edu"
@@ -47,9 +86,9 @@
       "description": "Kabosu Mama’s newest rescue.\nthe newest kitten rescued by the woman behind Doge",
       "symbol": "RIKA",
       "name": "Rika-chan",
-      "priceUsd": 4.084e-05,
-      "liquidityUsd": 14941.86,
-      "marketCap": 40845.0,
+      "priceUsd": 4.359e-05,
+      "liquidityUsd": 15525.53,
+      "marketCap": 43596.0,
       "pairCreatedAt": 1787480410000,
       "dex": "pumpswap",
       "dexUrl": "https://dexscreener.com/solana/ruxegnwtsyocxx71j2zkjsmyptprfd5j89wpw3bcwas"
@@ -60,9 +99,9 @@
       "description": "",
       "symbol": "PAW",
       "name": "Paw Patrol",
-      "priceUsd": 3.615e-06,
+      "priceUsd": 3.358e-06,
       "liquidityUsd": 0,
-      "marketCap": 3615.53,
+      "marketCap": 3358.26,
       "pairCreatedAt": 1787480931000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/8d7ms3xoxcx3pnffbg25prpgmdvdvxhch6gr7keukqjy"
@@ -73,57 +112,18 @@
       "description": "BOONO is an autonomous Solana trading system built over months of development, testing and live experimentation.\n\nIt discovers tokens, analyzes market and on-chain signals, applies risk gates and scoring, executes trades, verifies settlement on-chain",
       "symbol": "BOONO",
       "name": "BOONO",
-      "priceUsd": 1.439e-05,
+      "priceUsd": 1.683e-05,
       "liquidityUsd": 0,
-      "marketCap": 14398.16,
+      "marketCap": 16836.42,
       "pairCreatedAt": 1787410089000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/9aigwfqgp2gukwekpu49tomrbcyhey2hfsk8zb6gxpqr"
-    },
-    {
-      "mint": "5hspQiDgwG3R2Js9L3zqFa78WRAY8rm9SfJSAS6zpump",
-      "source": "DEX Latest Profiles",
-      "description": "The most valuable thing in life isn’t money, gold, or any material possession.\n\nIt’s YOU.\n\nYour inner self.\nYour mind.\nYour consciousness.\nYour higher self.\n\nEverything you experience in this life starts from within. Your thoughts shape your actions,",
-      "symbol": "YOURSELF",
-      "name": "The Most Valuable Thing In Life",
-      "priceUsd": 6.893e-06,
-      "liquidityUsd": 0,
-      "marketCap": 6893.91,
-      "pairCreatedAt": 1787478117000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/3znwjpgpkts1eqnpfleic5qcf53q6nteutpsv7hwmwyf"
-    },
-    {
-      "mint": "7EPM9o1UGFz3fzy6uis4dm3pUHoj761gN19m1fVWpump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "#",
-      "name": "Hashtag",
-      "priceUsd": 2.224e-05,
-      "liquidityUsd": 0,
-      "marketCap": 22245.35,
-      "pairCreatedAt": 1787476958000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/3dgdqfvtx4xmgpmg9dyjusmhqdns41xebsykirfxujuc"
-    },
-    {
-      "mint": "FoJss4RefrhvN4tqe2FvdJXu6nrCAUJXs9oajJC8pump",
-      "source": "DEX Latest Profiles",
-      "description": "Fine coin",
-      "symbol": "FINE",
-      "name": "This is fine",
-      "priceUsd": 1.77e-06,
-      "liquidityUsd": 1794.61,
-      "marketCap": 1716.0,
-      "pairCreatedAt": 1787477919000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/fa3zygmtjszrasxvguccazt87rz1aqhxgf9fniuunjqb"
     }
   ],
   "wallets": [
     {
-      "address": "2BiymeNjsL8gc6WXpa2VcWTzUNbgjBobabYetJ6Nzb5n",
-      "shortAddress": "2Biym...zb5n",
+      "address": "ACETV2XEeTKdgCbE4EFySgKxfuTgjtuudmwg5j8KoZvi",
+      "shortAddress": "ACETV...oZvi",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -137,13 +137,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump"
+        "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump"
       ],
       "latestBuy": null
     },
     {
-      "address": "9aiGwFQgP2GuKWEkpu49TomrBcYhEY2HFsk8zB6GxpQr",
-      "shortAddress": "9aiGw...xpQr",
+      "address": "C9JkBndAuPLpjUGLwZQCi7jk7SnsPX7XsfHt6v6fSNGV",
+      "shortAddress": "C9JkB...SNGV",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -157,13 +157,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "2Qd65KE9STzngT6sk1VrphnM9XM8TBcEGcwsuWJMpump"
+        "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump"
       ],
       "latestBuy": null
     },
     {
-      "address": "B9K2wTQcRDLRLhMKFyRh2hPqHrr6VKiCC9yNGpkMUXrh",
-      "shortAddress": "B9K2w...UXrh",
+      "address": "4LQVyLsMhYNQk1AiknZwewhRsYaN7BRPMRZobZrePrw1",
+      "shortAddress": "4LQVy...Prw1",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -177,13 +177,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump"
+        "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump"
       ],
       "latestBuy": null
     },
     {
-      "address": "3EJt1hKuzgnGirEi3kKQEUPA2yTgg8BKofskQoLzAd9p",
-      "shortAddress": "3EJt1...Ad9p",
+      "address": "RjxBaJLarVkzwrszrzVUdzhVQTwzArjivtXrEaVWsVC",
+      "shortAddress": "RjxBa...WsVC",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -197,13 +197,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "2Qd65KE9STzngT6sk1VrphnM9XM8TBcEGcwsuWJMpump"
+        "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump"
       ],
       "latestBuy": null
     },
     {
-      "address": "8rYBpA2Gd5vebiuR3dqyrupCuH2KhJr21qvEqnFQk1jk",
-      "shortAddress": "8rYBp...k1jk",
+      "address": "DxrZ5NeCSB5DpAfg9usMu4VAfCWegnQcU6zttpb8MR61",
+      "shortAddress": "DxrZ5...MR61",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -217,13 +217,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump"
+        "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump"
       ],
       "latestBuy": null
     },
     {
-      "address": "7qzYfLyf3ouizdgxsbJiJ3SeDYsvXCNTok5FGA5amdPX",
-      "shortAddress": "7qzYf...mdPX",
+      "address": "8MZXD6WUox7r6DShoajVMnxfYNHvBcK8cTpRw6C8c6fe",
+      "shortAddress": "8MZXD...c6fe",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -237,127 +237,7 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "2Qd65KE9STzngT6sk1VrphnM9XM8TBcEGcwsuWJMpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "9hS9gpEzNwzBKhNxvviVrp8frSNxuhmXajrrteB4NDms",
-      "shortAddress": "9hS9g...NDms",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 25,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 0,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "A4SA2RNKyb5upuib4sdz7AP8RFYqvmHyDXTXUBYAMdVU",
-      "shortAddress": "A4SA2...MdVU",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 25,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 0,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "2Qd65KE9STzngT6sk1VrphnM9XM8TBcEGcwsuWJMpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "FtxBDdbvNquVcqR6b8DrNCJgiEghd6HPL5VBKn1eoxhZ",
-      "shortAddress": "FtxBD...oxhZ",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 25,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 0,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "HMjMJZsQp6ykQyNSk8ZdmcJnNg5w9tRdU3q1DG3sW4ag",
-      "shortAddress": "HMjMJ...W4ag",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 25,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 0,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "2Qd65KE9STzngT6sk1VrphnM9XM8TBcEGcwsuWJMpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "CcX24HgFgnWpmhjaKTq58ScjsAZfuYZRQsyhPLtbtpEV",
-      "shortAddress": "CcX24...tpEV",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 25,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 0,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "5woeSfdsPJSjNwemDB1JpKbqYeAAEjELeK8bDHyKpump"
-      ],
-      "latestBuy": null
-    },
-    {
-      "address": "qBeNBdXyMMPwauRBG2by1WVo3Y5uv7RteKGE25yjKW2",
-      "shortAddress": "qBeNB...jKW2",
-      "tag": "Wallet Under Review",
-      "walletType": "WATCHLIST",
-      "isWhale": false,
-      "isWhaleCandidate": false,
-      "smartScore": 25,
-      "swapCount": 0,
-      "recentSwaps7d": 0,
-      "distinctTokens": 0,
-      "discoverySignals": 1,
-      "totalObservedSwapSol": 0.0,
-      "recentSwapSol7d": 0.0,
-      "maxSwapSol": 0.0,
-      "discoveredOn": [
-        "2Qd65KE9STzngT6sk1VrphnM9XM8TBcEGcwsuWJMpump"
+        "CaSMPP98UnjwZMfpqHRVxYZzNqj6PipbPZRTuSxZpump"
       ],
       "latestBuy": null
     }
