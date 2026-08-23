@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T08:01:21.861468+00:00",
+  "updatedAt": "2026-08-23T08:45:31.697966+00:00",
   "version": 1,
   "mode": "REAL",
   "network": "Solana",
@@ -16,14 +16,53 @@
   },
   "tokens": [
     {
+      "mint": "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump",
+      "source": "DEX Latest Profiles",
+      "description": "this is fine",
+      "symbol": "Fine",
+      "name": "This is fine",
+      "priceUsd": 1.634e-05,
+      "liquidityUsd": 0,
+      "marketCap": 16343.15,
+      "pairCreatedAt": 1787472609000,
+      "dex": "pumpfun",
+      "dexUrl": "https://dexscreener.com/solana/fwyq8xm5ux4zcmfe4wxgukxsnhfjjgmh9n4eocxhxlrb"
+    },
+    {
+      "mint": "G3pi7rdWYy2U6TtiEbSwh8mHwXn5LpX64h1whupDpump",
+      "source": "DEX Latest Profiles",
+      "description": "His Majesty 黃阿瑪 has issued a royal decree: remove summer. 👑🐈\nThe royal court has arrived on Solana.",
+      "symbol": "黃阿瑪",
+      "name": "黃阿瑪",
+      "priceUsd": 0.0004149,
+      "liquidityUsd": 51861.32,
+      "marketCap": 414990.0,
+      "pairCreatedAt": 1787471984000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/cmxmfdwr84smbu2cuuuk6gdwzlq5jbmw2eephb1uvx7b"
+    },
+    {
+      "mint": "GptPNLegzwsPrP1mibjXcPirHWGRVWmGM959VFkTpump",
+      "source": "DEX Latest Profiles",
+      "description": "Fastcoin dev onboarded holding 50%",
+      "symbol": "Fastcoin",
+      "name": "Fastcoin",
+      "priceUsd": 2.009e-06,
+      "liquidityUsd": 2003.22,
+      "marketCap": 2010.0,
+      "pairCreatedAt": 1787472481000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/c8kmpxnh7fjzupqlxy9mb6o8mce2s9zuucegmfnlxacb"
+    },
+    {
       "mint": "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump",
       "source": "DEX Latest Profiles",
       "description": "Jin Chan, the money toad, is a popular Chinese Feng Shui symbol of wealth, prosperity, and good fortune",
       "symbol": "JINCHAN",
       "name": "Money Toad",
-      "priceUsd": 8.626e-06,
+      "priceUsd": 6.43e-06,
       "liquidityUsd": 0,
-      "marketCap": 8626.5,
+      "marketCap": 6430.37,
       "pairCreatedAt": 1787471062000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/2brzkkxphoytaedd8wdifwarcwcphtna4sznn5vygpmq"
@@ -34,9 +73,9 @@
       "description": "",
       "symbol": "Eric",
       "name": "Elon's Pet Bee",
-      "priceUsd": 1.315e-05,
+      "priceUsd": 1.472e-05,
       "liquidityUsd": 0,
-      "marketCap": 13157.58,
+      "marketCap": 14725.32,
       "pairCreatedAt": 1778803177000,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/3set9fnbx3ol4ociyrsqx5yxgj6cceey6ebed75iub74"
@@ -47,9 +86,9 @@
       "description": "Elon’s cat is named Schrödinger\n\nToday a cabal $Dinger hit 5m, A fake OG larping as the OG is currently at 400k, but the real OG $Dinger is this one. Og always wins. \n\nWe are in the middle of a cat meta with cat coins running parabolic left and right",
       "symbol": "Dinger",
       "name": "Schrödinger",
-      "priceUsd": 2.513e-05,
+      "priceUsd": 1.734e-05,
       "liquidityUsd": 0,
-      "marketCap": 25130.94,
+      "marketCap": 17348.29,
       "pairCreatedAt": null,
       "dex": "pumpfun",
       "dexUrl": "https://dexscreener.com/solana/eu5ekdw6veezquoutxcuam5ppmavmumrwymhwufdfimq"
@@ -60,12 +99,12 @@
       "description": "Trader vaults on Solana. Back the best traders. They can never run. 70/30 split. On-chain record.",
       "symbol": "Coffer",
       "name": "Coffer",
-      "priceUsd": 2.484e-05,
-      "liquidityUsd": 0,
-      "marketCap": 24848.09,
-      "pairCreatedAt": 1787470904000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/3akzwttc72879baxj72ec8wseqjnyt2vpcsueqthhbjz"
+      "priceUsd": 8.245e-05,
+      "liquidityUsd": 21864.33,
+      "marketCap": 82448.0,
+      "pairCreatedAt": 1787472831000,
+      "dex": "pumpswap",
+      "dexUrl": "https://dexscreener.com/solana/b1siv4uwpuqpmknyanks4rackg6dhuprvg9kxdjd4p9e"
     },
     {
       "mint": "GStgZbWD1dZnkWreG61qqxY5dHRoxSwmh543hTkcpump",
@@ -73,57 +112,18 @@
       "description": "",
       "symbol": "Pepig",
       "name": "The Perfect Memecoin",
-      "priceUsd": 3.713e-06,
-      "liquidityUsd": 3292.9,
-      "marketCap": 3714.0,
+      "priceUsd": 3.719e-06,
+      "liquidityUsd": 3304.27,
+      "marketCap": 3719.0,
       "pairCreatedAt": 1787471261000,
       "dex": "pumpswap",
       "dexUrl": "https://dexscreener.com/solana/a52hyv7u2gxr1awzezjxp671m3yxdgfgn3ogdfrxqtw8"
-    },
-    {
-      "mint": "F8hVFDi84PbZe3ygztWMyKqqJmTb954Yf686VRTwh53D",
-      "source": "DEX Latest Profiles",
-      "description": "Félicette OG\n\nThe first cat in space\n\nPosted by dogecoin",
-      "symbol": "Félicette",
-      "name": "Félicette",
-      "priceUsd": 0.0001241,
-      "liquidityUsd": 29062.15,
-      "marketCap": 124077.0,
-      "pairCreatedAt": 1787470042000,
-      "dex": "pumpswap",
-      "dexUrl": "https://dexscreener.com/solana/3golwgedqbbp1rycpl5klnnmgvjjw72os3zbjgpcgvqb"
-    },
-    {
-      "mint": "7VwWih2od569c1HU4WW4Vts95CwnkE7AGnR1kij6pump",
-      "source": "DEX Latest Profiles",
-      "description": "Trade The Narrative",
-      "symbol": "Narrative",
-      "name": "Trade the narrative",
-      "priceUsd": 1.251e-05,
-      "liquidityUsd": 0,
-      "marketCap": 12518.73,
-      "pairCreatedAt": 1787470759000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/7ssqwzbna1foelbnnr32j5xzjk7pu79dwbrpwwazerbv"
-    },
-    {
-      "mint": "44EzUZ8D3FTCXPwJgeeTcd16LHB11euqiCeeMFA6pump",
-      "source": "DEX Latest Profiles",
-      "description": "",
-      "symbol": "Hoge",
-      "name": "Hogecoin",
-      "priceUsd": 8.357e-06,
-      "liquidityUsd": 0,
-      "marketCap": 8357.22,
-      "pairCreatedAt": 1787467440000,
-      "dex": "pumpfun",
-      "dexUrl": "https://dexscreener.com/solana/6upr1ceudgf3pwsxqxnxplwk9p9xgppgf8bh7xygnnnk"
     }
   ],
   "wallets": [
     {
-      "address": "2BRzkKxPhoYtaeDd8wDifWARCwCPHtNa4SZnN5VYgpmq",
-      "shortAddress": "2BRzk...gpmq",
+      "address": "Fwyq8xM5Ux4ZcMFe4WXgUKxsNHfjjGMH9N4eoCXHxLRB",
+      "shortAddress": "Fwyq8...xLRB",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -137,13 +137,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump"
+        "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump"
       ],
       "latestBuy": null
     },
     {
-      "address": "BJ13Ezfu5f57G27VzdjqauLRYND7SZ7D9cor6UG2XEJY",
-      "shortAddress": "BJ13E...XEJY",
+      "address": "2VKv5Kc2mwWVsANnHdLRuESoxgkSkgCBcrrjenYv6tyw",
+      "shortAddress": "2VKv5...6tyw",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -157,13 +157,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump"
+        "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump"
       ],
       "latestBuy": null
     },
     {
-      "address": "G6LHUA8hcGLXFQLHAMrRJbMJMxiP6RQviuoM6SyFJKCf",
-      "shortAddress": "G6LHU...JKCf",
+      "address": "9gnJFS3LDgG2Hu9rqt5nA6zwadDNGSiwWBjrqjAhna2X",
+      "shortAddress": "9gnJF...na2X",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -177,13 +177,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump"
+        "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump"
       ],
       "latestBuy": null
     },
     {
-      "address": "6j7YuVT3U8u3hnfZJSZKPXtwN8YTtfrew1rqGs8NWLf1",
-      "shortAddress": "6j7Yu...WLf1",
+      "address": "3h65MmPZksoKKyEpEjnWU2Yk2iYT5oZDNitGy5cTaxoE",
+      "shortAddress": "3h65M...axoE",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -197,13 +197,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump"
+        "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump"
       ],
       "latestBuy": null
     },
     {
-      "address": "EKGi6h8DMpEkfuzssz4kiUvx3mpRqTPeznbJYPmxUCWj",
-      "shortAddress": "EKGi6...UCWj",
+      "address": "yMBRVpuVm7bgASPEvEhVtKTbz4g4UhNFEDz8kBmHAv1",
+      "shortAddress": "yMBRV...HAv1",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -217,13 +217,13 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump"
+        "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump"
       ],
       "latestBuy": null
     },
     {
-      "address": "CwRjMsSygLXUX31Myo7aK743j5G2j2z9DakykH82An1e",
-      "shortAddress": "CwRjM...An1e",
+      "address": "Gg8Vx6jH4NvHGL94f7GyNvu5bbdsP2nGgqLiU7ABjAV4",
+      "shortAddress": "Gg8Vx...jAV4",
       "tag": "Wallet Under Review",
       "walletType": "WATCHLIST",
       "isWhale": false,
@@ -237,7 +237,7 @@
       "recentSwapSol7d": 0.0,
       "maxSwapSol": 0.0,
       "discoveredOn": [
-        "57Lr7PxJeUvrBPi51QqXmqqW4Qp4XekGRB9GKJJfpump"
+        "GNBknG1Fact4QksM1V5oofBNqbgnbzz2WdBiRF8Spump"
       ],
       "latestBuy": null
     }
