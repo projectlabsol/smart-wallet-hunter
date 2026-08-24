@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T11:49:39.051189+00:00",
+  "updatedAt": "2026-08-24T12:22:29.518118+00:00",
   "version": 1,
   "mode": "REAL",
   "network": "Solana",
@@ -9,13 +9,295 @@
   ],
   "methodology": "Smart Score v1 measures observed wallet activity and early-token signals. It is not a verified profit, ROI, or win-rate score.",
   "stats": {
-    "tokensScanned": 0,
-    "walletsAnalyzed": 0,
+    "tokensScanned": 8,
+    "walletsAnalyzed": 12,
     "recentBuys": 0,
     "smartMoneyAlerts": 0
   },
-  "tokens": [],
-  "wallets": [],
+  "tokens": [
+    {
+      "mint": "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump",
+      "source": "DEX Latest Profiles",
+      "description": ""
+    },
+    {
+      "mint": "ScLcXcM5zvh4hgc777k4CBVY22QkeaTWRe8DL1opump",
+      "source": "DEX Latest Profiles",
+      "description": ""
+    },
+    {
+      "mint": "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke",
+      "source": "DEX Latest Profiles",
+      "description": ""
+    },
+    {
+      "mint": "57aCZMZuHV1eZQk749oHwjmSU8wKUrvr1HXsWHjpump",
+      "source": "DEX Latest Profiles",
+      "description": "The crypto fear and greed index has hit \"greed\" for the first time this whole year. Trending page just minutes ago.\n\nYou can't be a winner if you're not greedy."
+    },
+    {
+      "mint": "7p54ZAUkpPJCkAE4oKQXqqshbBmnFz76ATq4dyUrpump",
+      "source": "DEX Latest Profiles",
+      "description": "Lets get Kim the fees and money she deserves!"
+    },
+    {
+      "mint": "BGsLSwUQcxCXzbQ3rHXyaU1LeA2Tj31BaTPXVKprpump",
+      "source": "DEX Latest Profiles",
+      "description": ""
+    },
+    {
+      "mint": "5QDRWE43H86fNTjvtqThx92WwRjgWmBMpNKWu42ypump",
+      "source": "DEX Latest Profiles",
+      "description": ""
+    },
+    {
+      "mint": "8ZzGS49BFgnvNaaEEUJuWXXPypA9pYj8L7drofdFpump",
+      "source": "DEX Latest Profiles",
+      "description": ""
+    }
+  ],
+  "wallets": [
+    {
+      "address": "BbMAv3ytWttit1iWB1HUCF18LEor6B1E9mj5X8wnsezi",
+      "shortAddress": "BbMAv...sezi",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "MobS6L5HhVJtxpeafDgREsweWFh53xFoUeP9pgbaDSf",
+      "shortAddress": "MobS6...aDSf",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "A8i6J8B1DgVdQaoeyrCmc18473EzYocEtZGavHT4sXzw",
+      "shortAddress": "A8i6J...sXzw",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "CUwyqt27UtTBxyxvj1hPqqyLVzrUgcDWAPJvwqnnwahn",
+      "shortAddress": "CUwyq...wahn",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "BQVz7fQ1WsQmSTMY3umdPEPPTm1sdcBcX9sP7o6kPRmB",
+      "shortAddress": "BQVz7...PRmB",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "9yYya3F5EJoLnBNKW6z4bZvyQytMXzDcpU5D6yYr4jqL",
+      "shortAddress": "9yYya...4jqL",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "CwMbeo27QZmoETFW6dCm5fkKGo9HcyF7oTv24VLncWm2",
+      "shortAddress": "CwMbe...cWm2",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "8iBw11bYxTA7X2fS12CX5sPH5paoZNkuTbDKAE5jMFR1",
+      "shortAddress": "8iBw1...MFR1",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "Fyr3eVTySpfyczEzUFcJ3SPtEKRwWKhxsmAWLghwP3FL",
+      "shortAddress": "Fyr3e...P3FL",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "7a43x5xN4mABFg4cuRQexjatmSazxNh2PsmovpPHmtmQ",
+      "shortAddress": "7a43x...mtmQ",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "5Ts9u34hqesbb1cxNmapvh5gZk2V4qpZTAyVdCqt6tuF",
+      "shortAddress": "5Ts9u...6tuF",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "3QaUV3YwesNV5utDzgUdBRTRNYbD9BxqHWP8fHjEpump"
+      ],
+      "latestBuy": null
+    },
+    {
+      "address": "DeXQXeZzvjQPecf2Hn1GVLYwn5xYt77KhpofkhZ4Sqkh",
+      "shortAddress": "DeXQX...Sqkh",
+      "tag": "Wallet Under Review",
+      "walletType": "WATCHLIST",
+      "isWhale": false,
+      "isWhaleCandidate": false,
+      "smartScore": 25,
+      "swapCount": 0,
+      "recentSwaps7d": 0,
+      "distinctTokens": 0,
+      "discoverySignals": 1,
+      "totalObservedSwapSol": 0.0,
+      "recentSwapSol7d": 0.0,
+      "maxSwapSol": 0.0,
+      "discoveredOn": [
+        "HtQ7K6uph2htAT5YH4oBgwsE3CHeg9MMbtXWHGSHpmke"
+      ],
+      "latestBuy": null
+    }
+  ],
   "recentBuys": [],
   "alerts": []
 }
